@@ -1,0 +1,19 @@
+{
+  "name": "projet_p3",
+  "version": "1.0.0",
+  "description": "site ohmyfood",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css --style expanded"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seykath/Projet_P3.git"
+  },
+  "author": "Tony Roussarie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Seykath/Projet_P3/issues"
+  },
+  "homepage": "https://github.com/Seykath/Projet_P3#readme"
+}

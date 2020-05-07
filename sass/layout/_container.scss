@@ -1,0 +1,33 @@
+.main{
+    display: flex;
+}
+
+article{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 20px;
+    border: 1px red solid;
+    width: 25%;
+    height: 600px;
+}
+
+.menu-1{
+    background: $background-menu-1;
+}
+
+.soon{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    
+}
+
+.soon p{
+    padding: 10px 40px;
+    background-color: $primary;
+    color: $secondary;
+    border-radius: 5px;
+}
