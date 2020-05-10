@@ -1,0 +1,5 @@
+@mixin menu-effect {
+    .effect:hover {
+        animation : zoom 0.4s forwards;
+    }
+}

@@ -16,12 +16,8 @@ footer a {
     margin-right: 30px;
 }
 
-
-// ajouter effet de rotation vers le haut et vers le bas en infinite avec une vitesse //
-.rotate {
-
-
+.link-animation {
     &:hover {
-
+        animation: wiggle 0.2s linear infinite alternate;
     }
 }
