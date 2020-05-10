@@ -1,12 +1,16 @@
 @import "base/typographie";
 @import "utils/variables";
 
-@import "components/buttons";
-
 @import "layout/header";
-@import "layout/container";
 @import "layout/footer";
 
+@import "pages/index";
+/*
+@import "pages/la-note-enchantee";
+@import "pages/le-chic-a-la-française";
+@import "pages/le-delice-des-papilles";
+@import "pages/la-palette-du-gout";
+*/
 
 
 body {

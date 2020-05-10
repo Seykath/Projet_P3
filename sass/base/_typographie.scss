@@ -1,31 +1,130 @@
 
-/* font-family: 'Nunito Sans', sans-serif;
-font-family: 'Devonshire', cursive;
-font-family: 'Itim', cursive;
-font-family: 'Kurale', serif;
-font-family: 'Source Serif Pro', serif;
-font-family: 'Dancing Script', cursive;
-font-family: 'Kaushan Script', cursive;
-font-family: 'Kalam', cursive; */
 
-.menu-1{
-    h2{
-    font-family: Devonshire;
-    font-size: 50px;
-    font-weight: normal;
-    }
+/*
+font-family: 'Devonshire'; --> Police titre Menu La note enchantée
+font-family: 'Segoe print bold'; -->Police "Menu du Menu note enchantée
+
+font-family: 'Croissant One Regular'; --> Police titre Chic à la française
+font-family: 'Source Serif Pro'; --> Police "Menu" du menu Chic à la française
+
+font-family: 'Dancing Script Regular'; --> Police titre Le délice des papilles
+font-family: 'Segoe Print bold'; --> Police "Menu" et texte du menu Le délice des papilles
+
+font-family: 'Kaushan Script Regular'; --> Police titre La palette du gout
+font-family: 'Segoe print bold'; -->Police "Menu du Menu La palette du gout 
+
+FOOTER
+
+font-familly: 'Monsterrat'; --> Polices de "Prochainement" et Boutons footer.
+*/
+
+/* La note enchantée */
+.menu-1 {
     h1{
-    font-family: 'Kalam'; /* TO DO à modifier pas la bonne police */
-    font-size: 70px;
+    font-family: 'Devonshire', cursive;
+    font-size: 48px;
+    font-weight: normal;
+    margin: 0;
+    text-align: center;
+    }
+    h2{
+    font-family: 'Segoe Print', serif;
+    font-size: 60px;
     font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 0;
+    text-align: center;
+    }
+    p{
+        font-family: 'Segoe Print', serif;
     }
 }
-.soon p{
-    font-family: 'Verdana';
-    font-size: 23px;
+
+/* Chic à la française */
+.menu-2 {
+    h1{
+    font-family: 'Croissant One', cursive;
+    font-size: 35px;
+    font-weight: normal;
+    text-align: center;
+    margin: 0;
+    background: -webkit-linear-gradient(280deg, #e38a12, #8f5aff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+    h2{
+    font-family: 'Serif'; /* TO DO police à redéfinir */
+    font-size: 60px;
+    font-weight: bold;
+    color: #c77412;
+    margin-top: 30px;
+    margin-bottom: 0;
+    text-align: center;
+    }
+}
+
+/* Le délice des papilles */
+.menu-3 {
+    h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    font-weight: lighter;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    background: -webkit-linear-gradient(20deg, #0023db, #0889fb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
+    }
+    h2{
+    font-family: 'Segoe Print', serif; 
+    font-size: 60px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+    color: #0887fb;
+    }
+}
+
+/* La palette de goût */
+.menu-4 {
+    h1{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 45px;
+    font-weight: normal;
+    text-align: center;
+    margin: 0;
+    background: -webkit-linear-gradient(20deg, #3e923a, #bfff80);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+    h2{
+    font-family: 'Segoe Print', serif;
+    font-size: 60px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+    color: #72bf56;
+    }
+}
+
+.soon {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: bold;
+    text-align: center;
+    font-size: 32px;
+
+    span {
+        font-size: 40px;
+        letter-spacing: 5px;
+    }
 }
 
 footer{
-    font-family: 'Verdana';
+    font-family: 'Montserrat', 'sans-serif';
     font-size: 30px;
+    font-weight: bold;
 }
