@@ -1,16 +1,34 @@
 /* Applique la keyframes zoom à mes éléments menus */
 @mixin menu-effect {
+
     &:hover {
         animation : zoom 0.4s forwards;
     }
 }
 
-@mixin position {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        width: 100%;
-        height: 100%;
+@mixin position-menus-index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
 
+}
+
+@mixin position-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+@mixin barre-position {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 30px;
 }
