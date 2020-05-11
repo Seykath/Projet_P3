@@ -152,6 +152,34 @@ footer {
 }
 
 /* Page Le chic à la française */
+.chic-francaise {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  color: #353535;
+}
+.chic-francaise__content h2 {
+  font-family: "Croissant one", cursive;
+  font-size: 65px;
+  font-weight: normal;
+  margin: 0;
+  background: linear-gradient(280deg, #e38a12, #8f5aff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chic-francaise__content h3 {
+  font-family: "Serif";
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+.chic-francaise__content p {
+  font-family: "Serif";
+  font-size: 25px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
 header {
   display: flex;
   height: 160px;
@@ -329,7 +357,7 @@ footer a {
   justify-content: space-between;
   align-items: center;
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .footer-note-enchantee {
@@ -346,8 +374,49 @@ footer a {
   margin-right: 30px;
 }
 
+.chic-francaise {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.chic-francaise__content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 50px;
+  margin-bottom: 130px;
+}
+.chic-francaise__content article {
+  width: 100%;
+  margin-top: 80px;
+}
+.chic-francaise__content article.mise-appetit {
+  color: #c77412;
+}
+.chic-francaise__content article.plaisir-papille {
+  color: #a56799;
+}
+.chic-francaise__content article.gourmandises-sucrees {
+  color: #6e4ccc;
+}
+.chic-francaise__content article .prix {
+  float: right;
+}
+.chic-francaise__content .decoration-barre {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 /*
-@import "pages/le-chic-a-la-française";
 @import "pages/le-delice-des-papilles";
 @import "pages/la-palette-du-gout";
 */
