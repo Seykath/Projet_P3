@@ -157,6 +157,13 @@ footer{
             text-align: center;
             margin: 0;
             color: $menu-note-color;
+            background: linear-gradient(to top, ($menu-note-color 0%), ($menu-note-color 3px), transparent 3px) no-repeat ;
+            background-size: 0 100%;
+            transition: background-size 0.4s;
+
+            &:hover {
+                background-size: 100% 100%;
+            }
         }
         
         p {
@@ -200,6 +207,35 @@ footer{
             text-align: center;
             margin: 0;
         }
+        .underline-1 {
+            background: linear-gradient(to top, ($chic-color-1 0%), ($chic-color-1 3px), transparent 3px) no-repeat ;
+            background-size: 0 100%;
+            transition: background-size 0.4s;
+
+            &:hover {
+                background-size: 100% 100%;
+            }
+        }
+
+        .underline-2 {
+            background: linear-gradient(to top, ($chic-color-2 0%), ($chic-color-2 3px), transparent 3px) no-repeat ;
+            background-size: 0 100%;
+            transition: background-size 0.4s;
+
+            &:hover {
+                background-size: 100% 100%;
+            }
+        }
+
+        .underline-3 {
+            background: linear-gradient(to top, ($chic-color-3 0%), ($chic-color-3 3px), transparent 3px) no-repeat ;
+            background-size: 0 100%;
+            transition: background-size 0.4s;
+
+            &:hover {
+                background-size: 100% 100%;
+            }
+        }
         
         p {
             font-family: 'Serif';
@@ -241,6 +277,36 @@ footer{
             text-align: center;
             margin: 0;
             color: black;
+        }
+
+        .underline-1 {
+            background: linear-gradient(to top, ($papille-color-1 0%), ($papille-color-1 3px), transparent 3px) no-repeat ;
+            background-size: 0 100%;
+            transition: background-size 0.4s;
+
+            &:hover {
+                background-size: 100% 100%;
+            }
+        }
+
+        .underline-2 {
+            background: linear-gradient(to top, ($papille-color-2 0%), ($papille-color-2 3px), transparent 3px) no-repeat ;
+            background-size: 0 100%;
+            transition: background-size 0.4s;
+
+            &:hover {
+                background-size: 100% 100%;
+            }
+        }
+
+        .underline-3 {
+            background: linear-gradient(to top, ($papille-color-3 0%), ($papille-color-3 3px), transparent 3px) no-repeat ;
+            background-size: 0 100%;
+            transition: background-size 0.4s;
+
+            &:hover {
+                background-size: 100% 100%;
+            }
         }
         
         p {
@@ -285,6 +351,36 @@ footer{
             margin: 0;
             color: black;
         }
+
+        .underline-1 {
+            background: linear-gradient(to top, ($palette-color-1 0%), ($palette-color-2 3px), transparent 3px) no-repeat ;
+            background-size: 0 100%;
+            transition: background-size 0.4s;
+
+            &:hover {
+                background-size: 100% 100%;
+            }
+        }
+
+        .underline-2 {
+            background: linear-gradient(to top, ($palette-color-1 0%), ($palette-color-2 3px), transparent 3px) no-repeat ;
+            background-size: 0 100%;
+            transition: background-size 0.4s;
+
+            &:hover {
+                background-size: 100% 100%;
+            }
+        }
+
+        .underline-3 {
+            background: linear-gradient(to top, ($palette-color-1 0%), ($palette-color-2 3px), transparent 3px) no-repeat ;
+            background-size: 0 100%;
+            transition: background-size 0.4s;
+
+            &:hover {
+                background-size: 100% 100%;
+            }
+        }
         
         p {
             font-family: 'Segoe Print', serif;
@@ -307,6 +403,7 @@ footer{
     h1 {
         text-align: center;
         font-size: 40px;
+        margin-bottom: 80px;
     }
     span {
         font-weight: bold;
@@ -320,5 +417,6 @@ footer{
     .infos {
         line-height: 30px;
         text-align: center;
+        padding-bottom: 30px;
     }
 }

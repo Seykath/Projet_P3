@@ -1,11 +1,3 @@
-/* Applique la keyframes zoom à mes éléments menus */
-@mixin menu-effect {
-
-    &:hover {
-        animation : zoom 0.4s forwards;
-    }
-}
-
 @mixin position-menus-index {
     display: flex;
     justify-content: center;
@@ -41,5 +33,4 @@
     width: 60%;
     margin: auto;
 }
-
 

@@ -1,6 +1,7 @@
 
 .mentions-content {
-    @include mentions;
-    padding: 50px;
+    padding: 20px;
     border: 2px $primary solid;
+
+     @include mentions;
 }
