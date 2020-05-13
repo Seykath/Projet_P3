@@ -1,3 +1,4 @@
+// Positionnement des menus contenu dans la page Index.html
 @mixin position-menus-index {
     display: flex;
     justify-content: center;
@@ -8,6 +9,15 @@
 
 }
 
+// Effet de zoom + opacité au survol sur les menus de la page index.html
+@mixin zoom-opacity {
+    &:hover {
+        transform: scale(1.2);
+        opacity: 0.8;
+    }
+}
+
+// Position du menu seul contenu dans la page correspondante au menu selectionné
 @mixin position-menu {
     display: flex;
     justify-content: center;
@@ -17,6 +27,14 @@
 
 }
 
+// Effet dégradé sur les différents titres des menus
+@mixin title-gradient($rotate, $color-1, $color-2) {
+    background: linear-gradient($rotate, $color-1, $color-2);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+// Positionnement des barres décoratives incluses dans chaque menus
 @mixin barre-position {
     display: flex;
     justify-content: space-between;
@@ -25,6 +43,7 @@
     margin-bottom: 50px;
 }
 
+// Positionnement du bloc mentions légales inclu dans la page mentions-légales.html
 @mixin mentions {
     display: flex;
     justify-content: center;
@@ -34,3 +53,24 @@
     margin: auto;
 }
 
+// Soulignement des titres des menus 1, 2 et 3
+@mixin underline-menus($color){
+    background: linear-gradient(to top, ($color 0%), ($color 3px), transparent 3px) no-repeat ;
+    background-size: 0 100%;
+    transition: background-size 0.4s;
+}
+
+// Soulignement des titres du menu 4 "La palette du goût"
+@mixin underline-menu-palette($color-bg1, $color-bg2){
+    background: linear-gradient(to top, ($color-bg1 0%), ($color-bg2 3px), transparent 3px) no-repeat ;
+    background-size: 0 100%;
+    transition: background-size 0.4s;
+}
+
+// Effet du soulignement au survol du titre des différents articles des menus
+@mixin underline-hover {
+
+    &:hover {
+                background-size: 100% 100%;
+            }
+}
