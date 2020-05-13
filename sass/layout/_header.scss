@@ -1,7 +1,9 @@
 
 header{
     display: flex;
-    height: 120px;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
     width: 100%;
     background-color: $primary;
 }

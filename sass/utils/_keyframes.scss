@@ -1,0 +1,22 @@
+/* Effet points de suspension avec opacité en décalé sur "Prochainement" */
+@keyframes ellipsis {
+  0% {
+    opacity: .2;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: .2;
+  }
+}
+
+/* Effet de secousse au survol des rubriques "mentions légales" et "contactez-nous" FOOTER */
+@keyframes wiggle{
+    from {
+        transform: rotate(5deg) 
+    }
+    to {
+        transform: rotate(-5deg)
+    }
+}

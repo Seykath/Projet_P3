@@ -1,12 +1,22 @@
+// Import du fichier contenu dans le dossier Base
 @import "base/typographie";
-@import "utils/variables";
 
-@import "components/buttons";
-
+// Import des fichiers contenu dans le dossier Layout
 @import "layout/header";
-@import "layout/container";
 @import "layout/footer";
 
+// Import des fichiers contenu dans le dossier Pages 
+@import "pages/index";
+@import "pages/la-note-enchantee";
+@import "pages/le-chic-a-la-francaise";
+@import "pages/le-delice-des-papilles";
+@import "pages/la-palette-du-gout";
+@import "pages/mentions-legales";
+
+// Import des fichiers contenu dans le dossier Utils
+@import "utils/keyframes";
+@import "utils/mixins";
+@import "utils/variables";
 
 
 body {
@@ -16,3 +26,6 @@ body {
     width: 100%;
     height: 100vh;
 }
+
+
+// Partie Responsive 

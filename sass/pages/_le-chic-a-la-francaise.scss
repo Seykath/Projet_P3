@@ -1,0 +1,43 @@
+
+
+.chic-francaise {
+    @include position-menu;
+    
+    &__content {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;
+        margin-top: 50px;
+        margin-bottom: 130px;
+
+        article {
+            width: 100%;
+            margin-top: 80px;
+
+            &.mise-appetit {
+                color: $chic-color-1;
+            }
+
+            &.plaisir-papille {
+                color: $chic-color-2;
+            }
+            
+            &.gourmandises-sucrees {
+                color: $chic-color-3;
+            }
+
+            .prix {
+                float: right;
+            }
+        }
+
+        .decoration-barre {
+            @include barre-position;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+    }
+
+}

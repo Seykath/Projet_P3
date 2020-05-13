@@ -1,31 +1,354 @@
+@import "../utils/variables";
+@import "../utils/mixins";
 
-/* font-family: 'Nunito Sans', sans-serif;
-font-family: 'Devonshire', cursive;
-font-family: 'Itim', cursive;
-font-family: 'Kurale', serif;
-font-family: 'Source Serif Pro', serif;
-font-family: 'Dancing Script', cursive;
-font-family: 'Kaushan Script', cursive;
-font-family: 'Kalam', cursive; */
+// PAGE ACCUEIL // INDEX 
 
-.menu-1{
+// La note enchantée
+// font-family: 'Devonshire'; --> Police titre Menu La note enchantée
+// font-family: 'Segoe print bold'; -->Police du "Menu" note enchantée
+
+// Le chic à la française
+// font-family: 'Croissant One Regular'; --> Police titre Chic à la française
+// font-family: 'Source Serif Pro'; --> Police du "Menu" Chic à la française
+
+// Le délice des papilles
+// font-family: 'Dancing Script Regular'; --> Police titre Le délice des papilles
+// font-family: 'Segoe Print bold'; --> Police "Menu" et texte Le délice des papilles
+
+// La palette du goût
+// font-family: 'Kaushan Script Regular'; --> Police titre La palette du gout
+// font-family: 'Segoe print bold'; -->Police du "Menu" La palette du gout 
+
+// FOOTER
+// font-familly: 'Monsterrat'; --> Polices de "Prochainement" et Boutons footer.
+
+
+body {
+    font-size: 20px;
+    color: $text-color;
+}
+
+/* INDEX | La note enchantée */
+.menu-1 {
     h2{
-    font-family: Devonshire;
+    font-family: 'Devonshire', cursive;
+    font-size: 48px;
+    font-weight: normal;
+    margin: 0;
+    text-align: center;
+    color: $menu-note-color;
+    }
+
+    h3{
+    font-family: 'Segoe Print', serif;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 0;
+    text-align: center;
+    color: $menu-note-color;
+    }
+}
+
+/* PAGE | La note enchantée */
+.note-enchantee {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+
+    &__content {
+
+        h2 {
+            font-family: 'Devonshire', cursive;
+            font-size: 65px;
+            font-weight: normal;
+            margin: 0;
+            color: $menu-note-color;
+        }
+
+        h3 {
+            font-family: 'Segoe Print', serif;
+            font-weight: bold;
+            text-align: center;
+            margin: 0;
+            color: $menu-note-color;
+            @include underline-menus($menu-note-color);
+            @include underline-hover;
+        }
+        
+        p {
+            font-family: 'Segoe Print', serif;
+            font-size: 25px;
+            color: $menu-note-color;
+            .prix {
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+
+
+/* INDEX | Chic à la française  */
+.menu-2 {
+    h2{
+    font-family: 'Croissant One', cursive;
+    font-size: 35px;
+    font-weight: normal;
+    text-align: center;
+    margin: 0;
+    @include title-gradient(150deg, #e38a12, #8f5aff);
+    }
+
+    h3{
+    font-family: 'Serif'; /* TO DO police à redéfinir */
+    font-size: 60px;
+    font-weight: bold;
+    color: #c77412;
+    margin-top: 30px;
+    margin-bottom: 0;
+    text-align: center;
+    }
+}
+
+/* PAGE | Le chic à la française */
+.chic-francaise {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+
+    &__content {
+
+        h2 {
+            font-family: 'Croissant one', cursive;
+            font-size: 65px;
+            font-weight: normal;
+            margin: 0;
+            @include title-gradient(150deg, #e38a12, #8f5aff);
+        }
+
+        h3 {
+            font-family: 'Serif';
+            font-size: 40px;
+            font-weight: bold;
+            text-align: center;
+            margin: 0;
+        }
+        .underline-1 {
+            @include underline-menus($chic-color-1);
+            @include underline-hover;
+        }
+
+        .underline-2 {
+            @include underline-menus($chic-color-2);
+            @include underline-hover;
+        }
+
+        .underline-3 {
+            @include underline-menus($chic-color-3);
+            @include underline-hover;
+        }
+        
+        p {
+            font-family: 'Serif';
+            font-size: 25px;
+            padding-left: 150px;
+            padding-right: 150px;
+        } 
+    }
+}
+
+
+
+/* INDEX | Le délice des papilles */
+.menu-3 {
+    h2{
+    font-family: 'Dancing Script', cursive;
     font-size: 50px;
     font-weight: normal;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    @include title-gradient(45deg, #0023db, #0889fb);
     }
-    h1{
-    font-family: 'Kalam'; /* TO DO à modifier pas la bonne police */
-    font-size: 70px;
-    font-weight: bold;
+
+    h3{
+    font-family: 'Segoe Print', serif; 
+    font-size: 60px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+    color: #0887fb;
     }
-}
-.soon p{
-    font-family: 'Verdana';
-    font-size: 23px;
 }
 
-footer{
-    font-family: 'Verdana';
+/* PAGE | Le délice des papilles */
+.delice-papille {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 30px;
+
+    &__content {
+
+        h2 {
+            font-family: 'Dancing Script', cursive;
+            font-size: 100px;
+            font-weight: normal;
+            margin: 0;
+            padding: 0 10px;
+            @include title-gradient(45deg, #0023db, #229df9);
+        }
+
+        h3 {
+            font-family: 'Segoe Print', serif;
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            margin: 0;
+        }
+
+        .underline-1 {
+            @include underline-menus($papille-color-1);
+            @include underline-hover;
+        }
+
+        .underline-2 {
+            @include underline-menus($papille-color-2);
+            @include underline-hover;
+        }
+
+        .underline-3 {
+            @include underline-menus($papille-color-3);
+            @include underline-hover;
+        }
+        
+        p {
+            font-family: 'Segoe Print', serif;
+            font-size: 25px;
+            padding-left: 150px;
+            padding-right: 150px;
+        }
+    }
+}
+
+
+
+/* INDEX | La palette de goût */
+.menu-4 {
+    h2{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 45px;
+    font-weight: normal;
+    text-align: center;
+    margin: 0;
+    @include title-gradient(120deg, $palette-color-1, $palette-color-2);
+    }
+
+    h3{
+    font-family: 'Segoe Print', serif;
+    font-size: 60px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+    color: #72bf56;
+    }
+}
+
+/* PAGE | La palette du goût */
+.palette-gout {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+
+    &__content {
+
+        h2 {
+            font-family: 'Kaushan Script', cursive;
+            font-size: 100px;
+            font-weight: normal;
+            margin: 0;
+            padding: 0 10px;
+            @include title-gradient(120deg, $palette-color-1, $palette-color-2);
+        }
+
+        h3 {
+            font-family: 'Segoe Print', serif;
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            margin: 0;
+        }
+
+        .underline-1 {
+            @include underline-menu-palette($palette-color-1, $palette-color-2);
+            @include underline-hover;
+        }
+
+        .underline-2 {
+            @include underline-menu-palette($palette-color-1, $palette-color-2);
+            @include underline-hover;
+        }
+
+        .underline-3 {
+            @include underline-menu-palette($palette-color-1, $palette-color-2);
+            @include underline-hover;
+        }
+        
+        p {
+            font-family: 'Segoe Print', serif;
+            font-size: 25px;
+            padding-left: 150px;
+            padding-right: 150px;
+        }
+    }
+}
+
+
+
+/* "bouton" Prochainement */
+.soon {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: bold;
+    text-align: center;
+    font-size: 32px;
+
+    span {
+        font-size: 40px;
+        letter-spacing: 5px;
+    }
+}
+
+/* Footer */
+footer{
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+/* Page Mentions légales */
+.mentions-legales {
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 25px;
+
+    h1 {
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 80px;
+    }
+
+    span {
+        font-weight: bold;
+    }
+
+    .chapitre {
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 40px;
+    }
+    .infos {
+        line-height: 30px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
 }
