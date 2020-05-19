@@ -114,6 +114,15 @@ body {
             font-size: 1.5em;
         }
 
+        p {
+            padding-left: 0;
+            margin-bottom: 10px;
+        }
+
+        strong {
+            padding-right: 0;
+        }
+        
         .entrees, .plats, .desserts {
             padding: 40px 10px;
         }

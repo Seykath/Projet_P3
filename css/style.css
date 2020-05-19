@@ -79,7 +79,7 @@ header {
   border-bottom: 2px solid #a1c181;
 }
 header .logo {
-  width: 300px;
+  width: 400px;
   height: auto;
   margin: auto;
 }
@@ -822,6 +822,13 @@ body {
   }
   .note-enchantee__content h3 {
     font-size: 1.5em;
+  }
+  .note-enchantee__content p {
+    padding-left: 0;
+    margin-bottom: 10px;
+  }
+  .note-enchantee__content strong {
+    padding-right: 0;
   }
   .note-enchantee__content .entrees, .note-enchantee__content .plats, .note-enchantee__content .desserts {
     padding: 40px 10px;
