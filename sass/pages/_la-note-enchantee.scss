@@ -7,31 +7,63 @@
         justify-content: flex-start;
         align-items: center;
         flex-direction: column;
-        width: 50%;
-        margin-bottom: 130px;
+        width: 1500px;
+        margin-bottom: 150px;
         background-color: $bg-menu-1;
 
-        .logo-note {
-            width: 100px;
-            padding-top: 80px;
-            margin: 0;
+        .fa-music {
+            padding-top: 50px;
+            margin-top: 3%;
+            @include music-gradient(90deg, $music-color-1, $music-color-2);
         }
 
-        article {
-            width: 80%;
-            margin-top: 80px;
+        .entrees {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+            height: 100%;
+            padding: 40px 80px;
 
-            .prix {
-                float: right;
+            .entrees__title {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            width: 100%;
+            margin-bottom: 20px;
+            }
+
+            img {
+                width: 25%;
+                align-self: center;
+                overflow: hidden;
+            }
+
+            .lignemenu {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+            }
+        }
+        
+        .plats {
+            @extend .entrees;
+
+            .plats__title {
+                @extend .entrees__title;
             }
         }
 
-        .decoration-barre {
-            @include barre-position;
+        .desserts {
+            @extend .entrees;
+
+            .desserts__title {
+                @extend .entrees__title;
+            }
         }
-
     }
-
 }
 
 .footer-note-enchantee {
@@ -41,10 +73,10 @@
     width: 100%;
     margin: 100px;
 
-    .logo-note {
-        width: 80px;
+    .fa-music {
         padding: 0;
         margin: 0;
         margin-right: 30px;
+        @include music-gradient(90deg, $music-color-1, $music-color-2);
     }
 }

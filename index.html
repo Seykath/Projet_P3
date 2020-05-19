@@ -11,6 +11,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" type="image/png" href="./css/images/favicon.png">
+    <script src="https://kit.fontawesome.com/6bc9113a6b.js" crossorigin="anonymous"></script>
 
     <title>Ohmyfood</title>
 
@@ -20,53 +21,59 @@
 
     <!-- HEADER -->
     <header>
-        <a href="index.html"><img class="logo" src="./css/images/Logo-ohmyfood.png" alt="logo Ohmyfood"
-                title="Ohmyfood"></a>
+        <a href="index.html"><img href="index.html" class="logo" src="./css/images/Logo-ohmyfood.png"
+                alt="logo Ohmyfood" title="Ohmyfood"></a>
     </header>
 
     <!-- BLOC PRINCIPAL -->
     <main class="content">
 
-        <!-- CONTENEUR "La note enchantée | Menu" -->
-        <section class="menus">
-            <a class="link" href="la-note-enchantee.html" target="_blank">
-                <div class="menu-1">
-                    <img src="./css/images/logo-note-musique.png" class="logo-note" alt="Note de Musique"
-                        title="La petite note du chef">
-                    <h2>La note enchantée</h2>
-                    <h3>Menu</h3>
-                </div>
-            </a>
+        <section id="menus-ligne-1">
+
+            <!-- CONTENEUR "La note enchantée | Menu" -->
+            <section class="menus">
+                <a class="link" href="la-note-enchantee.html">
+                    <div class="menus__note-enchantee">
+                        <i class="fas fa-music fa-4x"></i>
+                        <h2>La note enchantée</h2>
+                        <h3>Menu</h3>
+                    </div>
+                </a>
+            </section>
+
+            <!-- CONTENEUR "Le chic à la française | Menu" -->
+            <section class="menus">
+                <a class="link" href="le-chic-a-la-francaise.html">
+                    <div class="menus__chic-a-la-francaise">
+                        <h2>Le chic à la française</h2>
+                        <h3>Menu</h3>
+                    </div>
+                </a>
+            </section>
+
         </section>
 
-        <!-- CONTENEUR "Le chic à la française | Menu" -->
-        <section class="menus">
-            <a class="link" href="le-chic-a-la-francaise.html" target="_blank">
-                <div class="menu-2">
-                    <h2>Le chic à la française</h2>
-                    <h3>Menu</h3>
-                </div>
-            </a>
-        </section>
+        <section id="menus-ligne-2">
 
-        <!-- CONTENEUR "Le délice des papilles | Menu" -->
-        <section class="menus">
-            <a class="link" href="le-delice-des-papilles.html" target="_blank">
-                <div class="menu-3">
-                    <h2>Le délice des papilles</h2>
-                    <h3>Menu</h3>
-                </div>
-            </a>
-        </section>
+            <!-- CONTENEUR "Le délice des papilles | Menu" -->
+            <section class="menus">
+                <a class="link" href="le-delice-des-papilles.html">
+                    <div class="menus__delice-des-papilles">
+                        <h2>Le délice des papilles</h2>
+                        <h3>Menu</h3>
+                    </div>
+                </a>
+            </section>
 
-        <!-- CONTENEUR "La palette du goût | Menu" -->
-        <section class="menus">
-            <a class="link" href="la-palette-du-gout.html" target="_blank">
-                <div class="menu-4">
-                    <h2>La palette du goût</h2>
-                    <h3>Menu</h3>
-                </div>
-            </a>
+            <!-- CONTENEUR "La palette du goût | Menu" -->
+            <section class="menus">
+                <a class="link" href="la-palette-du-gout.html">
+                    <div class="menus__palette-du-gout">
+                        <h2>La palette du goût</h2>
+                        <h3>Menu</h3>
+                    </div>
+                </a>
+            </section>
         </section>
 
     </main>

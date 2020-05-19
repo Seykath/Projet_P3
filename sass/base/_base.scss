@@ -1,0 +1,242 @@
+
+
+// Code commun à mon site
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+// Responsive 
+@media screen and (min-width: 1024px) and (max-width: 1500px) {
+    .note-enchantee__content {
+        width: 95%;
+    }
+
+    .chic-francaise__content {
+        width: 95%;
+    }
+
+    .delice-papille__content {
+        width: 95%;
+    }
+
+    .palette-gout__content {
+        width: 95%;
+    }
+}
+
+
+@media screen and (max-width: 1023px) {
+
+    #menus-ligne-1, #menus-ligne-2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lignemenu {
+        margin-bottom: 25px;
+    }
+
+    .note-enchantee__content {
+        width: 100%;
+    }
+
+    .chic-francaise__content {
+        width: 100%;
+        
+        p {
+            padding-left: 50px;
+        } 
+
+        span {
+            padding-right: 50px;
+        }
+    }
+
+    .delice-papille__content {
+        width: 100%;
+    }
+
+        p {
+            padding-left: 50px;
+        } 
+
+        strong {
+            padding-right: 50px;
+        }
+
+    .palette-gout__content {
+        width: 100%;
+
+        p {
+            padding-left: 50px;
+        } 
+
+        strong {
+            padding-right: 50px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+
+    body {
+        font-size: 18px;
+    }
+    .lignemenu {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                text-align: center;
+                margin-bottom: 35px;
+                width: 100%;
+    }
+
+    .note-enchantee__content {
+        h2 {
+            font-size: 2em;
+        }
+        .fa-music {
+            font-size: 3em;
+        }
+        
+        h3 {
+            font-size: 1.5em;
+        }
+
+        .entrees, .plats, .desserts {
+            padding: 40px 10px;
+        }
+        
+        .footer-note-enchantee {
+            font-size: 0.9em;
+
+            h2 {
+                font-size: 2em;
+            }
+        }
+    }
+    
+    .chic-francaise__content {
+        h2 {
+            font-size: 2em;
+        }
+        .fa-music {
+            font-size: 3em;
+        }
+        
+        h3 {
+            font-size: 1.5em;
+        }
+
+        p {
+            padding-left: 0;
+            margin-bottom: 10px;
+        }
+
+        span {
+            padding-right: 0;
+        }
+
+        .entrees, .plats, .desserts {
+            padding: 40px 10px;
+        }
+    }
+
+    .delice-papille__content {
+         h2 {
+            font-size: 3.5em;
+        }
+        .fa-music {
+            font-size: 3em;
+        }
+        
+        h3 {
+            font-size: 1.5em;
+        }
+
+        p {
+            padding-left: 0;
+            margin-bottom: 10px;
+        }
+
+        strong {
+            padding-right: 0;
+        }
+
+        .entrees, .plats, .desserts {
+            padding: 40px 10px;
+        }
+    }
+    
+    .palette-gout__content {
+         h2 {
+            font-size: 3.5em;
+        }
+        .fa-music {
+            font-size: 3em;
+        }
+        
+        h3 {
+            font-size: 1.5em;
+        }
+
+        p {
+            padding-left: 0;
+            margin-bottom: 10px;
+        }
+
+        strong {
+            padding-right: 0;
+        }
+
+        .entrees, .plats, .desserts {
+            padding: 40px 10px;
+        }
+    }
+
+    footer {
+        font-size: 1em;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    header {
+        .logo {
+            width: 250px;
+        }
+    }
+
+     .menus {
+        width: 95%;
+        height: 600px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .soon {
+        font-size: 1em;
+        width: 80%;
+    }
+
+    footer {
+        font-size: 0.9em;
+
+        .link-animation {
+            margin-left: 0;
+            margin-right: 0;
+            padding: 0 5px;
+        }
+    }
+}

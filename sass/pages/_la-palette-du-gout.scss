@@ -6,24 +6,57 @@
         justify-content: flex-start;
         align-items: center;
         flex-direction: column;
-        width: 50%;
+        width: 1500px;
         margin-top: 50px;
         margin-bottom: 130px;
 
-        article {
+        .entrees {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            flex-wrap: wrap;
             width: 100%;
-            margin-top: 80px;
-            
-            .prix {
-                float: right;
-                font-weight: bold;
+            height: 100%;
+            padding: 40px 80px;
+
+            .entrees__title {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            width: 100%;
+            margin-bottom: 40px;
+            }
+
+            img {
+                width: 32%;
+                align-self: center;
+                overflow: hidden;
+            }
+
+            .lignemenu {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                margin-bottom: 30px;
+
+            }
+        }
+        
+        .plats {
+            @extend .entrees;
+
+            .plats__title {
+                @extend .entrees__title;
             }
         }
 
-        .decoration-barre {
-            @include barre-position;
-            padding-left: 50px;
-            padding-right: 50px;
+        .desserts {
+            @extend .entrees;
+
+            .desserts__title {
+                @extend .entrees__title;
+            }
         }
     }
 
