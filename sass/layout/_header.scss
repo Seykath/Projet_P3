@@ -4,12 +4,13 @@ header{
     justify-content: center;
     align-items: center;
     height: 160px;
-    width: 100%;
+    width: 100%; 
     background-color: $primary;
+
+    .logo{
+        width: 300px;
+        height: auto;
+        margin: auto;
+    }
 }
 
-.logo{
-    width: 300px;
-    height: auto;
-    margin: auto;
-}

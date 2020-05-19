@@ -1,62 +1,62 @@
-@import "../utils/mixins";
-@import "../utils/keyframes";
-
-
-// Disposition de mon contenu sur la page 2 boîtes par ligne
-.content{
-    display: grid;
-    grid-template-columns: 500px 500px;
-    grid-gap: 40px;
-    padding: 20px;
-    justify-content: center;
-    margin: auto;
-}
-
 // Suppression de la couleur des liens et de la barre de soulignement
 .link {
     text-decoration: none;
-    color: inherit;
+    color: none;
+}
+
+
+// Disposition de mes menus sur deux lignes
+#menus-ligne-1, #menus-ligne-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 // Taille des boîtes des menus + effet de contour + ombre des boîtes
 .menus{
     width: 500px;
     height: 700px;
-    border: $article-border;
+    margin: 10px;
     box-shadow: $article-box-shadow;
     overflow: hidden;
-}
 
-// Background + Effet de zoom et opacité + Positionnement du texte à l'intérieur de la boîte menu "La note enchantée"
-.menu-1{
-    background-color: $bg-menu-1;
-    transition: all 0.4s;
-    .logo-note{
-        width: 60px;
-        height: auto;
-        margin-bottom: 10px;
+    // Background + Effet de zoom et opacité + Positionnement du texte à l'intérieur de la boîte menu "La note enchantée"
+    &__note-enchantee{
+        background-color: $bg-menu-1;
+        transition: all 0.4s;
+
+        .fa-music{
+            margin-bottom: 10px;
+            @include music-gradient(90deg, $music-color-1, $music-color-2);
+        }
+
+        @include zoom-opacity;
+        @include position-menus-index;
+
     }
 
-    @include zoom-opacity;
-    @include position-menus-index;
+    // Background + Effet de zoom et opacité + Positionnement du texte à l'intérieur des boîtes des 3 autres menus
+    &__chic-a-la-francaise, &__delice-des-papilles, &__palette-du-gout {
+        background-color: $bg-other-menu;
+        transition: all 0.4s;
 
+        @include zoom-opacity;
+        @include position-menus-index;
+    }
 }
 
-// Background + Effet de zoom et opacité + Positionnement du texte à l'intérieur des boîtes des 3 autres menus
-.menu-2, .menu-3, .menu-4 {
-    background-color: $bg-other-menu;
-    transition: all 0.4s;
-
-    @include zoom-opacity;
-    @include position-menus-index;
-}
 
 // Bouton Prochainement
 .soon{
-    display: block;
-    width: 18%;
-    line-height: 35px;
-    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    margin-top: 40px;
+    margin-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: $primary;
     color: $secondary;
     border-radius: 15px;
