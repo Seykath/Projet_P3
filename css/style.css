@@ -200,6 +200,7 @@ footer .link-animation:hover {
   align-items: center;
   flex-direction: column;
   width: 1500px;
+  margin-top: 50px;
   margin-bottom: 150px;
   background-color: #fcdfdb;
 }
@@ -266,6 +267,7 @@ footer .link-animation:hover {
   align-items: center;
   flex-direction: column;
   width: 1500px;
+  margin-top: 50px;
   margin-bottom: 150px;
 }
 .chic-francaise__content .entrees, .chic-francaise__content .desserts, .chic-francaise__content .plats {
@@ -442,10 +444,10 @@ body {
 /* PAGE | La note enchantée */
 .note-enchantee__content h2 {
   font-family: "Devonshire", cursive;
-  font-size: 55px;
+  font-size: 80px;
   font-weight: normal;
   text-align: center;
-  margin-bottom: 0;
+  margin-bottom: 50px;
   color: #3d1319;
 }
 .note-enchantee__content h3 {
@@ -472,6 +474,9 @@ body {
   font-family: "Segoe Print", serif;
   margin-left: 20px;
 }
+.note-enchantee__content .footer-note-enchantee h2 {
+  margin-bottom: 0;
+}
 
 /* INDEX | Chic à la française  */
 .menus__chic-a-la-francaise h2 {
@@ -497,10 +502,10 @@ body {
 /* PAGE | Le chic à la française */
 .chic-francaise__content h2 {
   font-family: "Croissant one", cursive;
-  font-size: 60px;
+  font-size: 70px;
   text-align: center;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 100px;
+  margin-bottom: 150px;
   background: linear-gradient(150deg, #e38a12, #8f5aff);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -569,8 +574,8 @@ body {
   font-family: "Dancing Script", cursive;
   font-size: 100px;
   text-align: center;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 100px;
+  margin-bottom: 150px;
   background: linear-gradient(45deg, #0023db, #229df9);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -640,8 +645,8 @@ body {
   font-family: "Kaushan Script", cursive;
   font-size: 100px;
   text-align: center;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 100px;
+  margin-bottom: 150px;
   background: linear-gradient(120deg, #41963c, #bffc87);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -734,21 +739,21 @@ body {
   height: 100vh;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1500px) {
+@media screen and (min-width: 1024px) and (max-width: 1600px) {
   .note-enchantee__content {
-    width: 95%;
+    width: 90%;
   }
 
   .chic-francaise__content {
-    width: 95%;
+    width: 90%;
   }
 
   .delice-papille__content {
-    width: 95%;
+    width: 90%;
   }
 
   .palette-gout__content {
-    width: 95%;
+    width: 90%;
   }
 }
 @media screen and (max-width: 1023px) {
@@ -829,6 +834,7 @@ body {
   }
   .note-enchantee__content strong {
     padding-right: 0;
+    margin-left: 0;
   }
   .note-enchantee__content .entrees, .note-enchantee__content .plats, .note-enchantee__content .desserts {
     padding: 40px 10px;
@@ -875,6 +881,7 @@ body {
   }
   .delice-papille__content strong {
     padding-right: 0;
+    margin-left: 0;
   }
   .delice-papille__content .entrees, .delice-papille__content .plats, .delice-papille__content .desserts {
     padding: 40px 10px;

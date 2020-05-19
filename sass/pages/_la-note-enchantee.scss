@@ -8,6 +8,7 @@
         align-items: center;
         flex-direction: column;
         width: 1500px;
+        margin-top: 50px;
         margin-bottom: 150px;
         background-color: $bg-menu-1;
 
@@ -68,10 +69,10 @@
 
 .footer-note-enchantee {
     display: flex;
-    justify-content: center;;
+    justify-content: center;
     align-items: center;
     width: 100%;
-    margin: 100px;
+    margin:100px;
 
     .fa-music {
         padding: 0;
