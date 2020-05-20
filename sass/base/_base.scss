@@ -13,241 +13,516 @@ body {
 
 
 // Responsive 
-@media screen and (min-width: 1024px) and (max-width: 1600px) {
-    .note-enchantee__content {
-        width: 90%;
+
+@media screen and (max-width: 2000px) {
+    header {
+
+        .logo {
+            width: 20vw;
+        }
     }
 
-    .chic-francaise__content {
-        width: 90%;
+    .menus {
+        width: 25vw;
     }
 
-    .delice-papille__content {
-        width: 90%;
+    .menus__note-enchantee {
+        h2 {
+            font-size: 3vw;
+        }
+
+        h3 {
+            font-size: 3.5vw;
+        }
     }
 
-    .palette-gout__content {
-        width: 90%;
+    .menus__chic-a-la-francaise {
+        h2 {
+            font-size: 2.5vw;
+        }
+
+        h3 {
+            font-size: 3.5vw;
+        }
+    }
+
+    .menus__delice-des-papilles {
+        h2 {
+            font-size: 3.1vw;
+        }
+
+        h3 {
+            font-size: 3.5vw;
+        }
+    }
+
+    .menus__palette-du-gout {
+        h2 {
+            font-size: 3vw;
+        }
+
+        h3 {
+            font-size: 3.5vw;
+        }
+    }
+
+    .soon {
+        width: 22vw;
     }
 }
 
 
-@media screen and (max-width: 1023px) {
+
+
+
+
+@media screen and (max-width: 1600px) {
+
+    body{
+        font-size: 1.5vw;
+    }
+
+    header {
+
+        .logo {
+            width: 23vw;
+        }
+    }
+
+    .menus {
+        width: 30vw;
+    }
+
+    .note-enchantee__content {
+        width: 70vw;
+
+        h2{
+            font-size: 4vw;
+        }
+
+        h3 {
+            font-size: 2vw;
+        }
+    }
+
+    .chic-francaise__content {
+        width: 70vw;
+
+        h2{
+            font-size: 4vw;
+        }
+
+        h3 {
+            font-size: 2vw;
+        }
+    }
+
+    .delice-papille__content {
+       width: 70vw;
+
+        h2{
+            font-size: 4vw;
+        }
+
+        h3 {
+            font-size: 2vw;
+        }
+    }
+
+    .palette-gout__content {
+        width: 70vw;
+
+        h2{
+            font-size: 4vw;
+        }
+
+        h3 {
+            font-size: 2vw;
+        }
+    }
+
+    .soon {
+        width: 26vw;
+        font-size: 2vw;
+    }
+
+    footer {
+        font-size: 2vw;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    body {
+        font-size: 1.8vw;
+    }
+
+    header {
+
+        .logo {
+            width: 25vw;
+        }
+    }
+
+    .menus {
+        width: 35vw;
+    }
+
+     .note-enchantee__content {
+        width: 75vw;
+        
+        h2{
+            font-size: 4.5vw;
+        }
+
+        h3 {
+            font-size: 2.5vw;
+        }
+     }    
+        
+     .chic-francaise__content {
+        width: 75vw;
+        
+        h2{
+            font-size: 4vw;
+        }
+
+        h3 {
+            font-size: 2.5vw;
+        }
+    }
+
+     .delice-papille__content {
+        width: 75vw;
+        
+        h2{
+            font-size: 5.5vw;
+        }
+
+        h3 {
+            font-size: 2.5vw;
+        }
+    }
+
+    .palette-gout__content {
+        width: 75vw;
+        
+        h2{
+            font-size: 5.5vw;
+        }
+
+        h3 {
+            font-size: 2.5vw;
+        }
+    }
+
+    .soon {
+        width: 30vw;
+        font-size: 3vw;
+        margin-bottom: 12vh;
+    }
+
+    footer {
+        font-size: 3vw;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    body {
+        font-size: 2vw;
+    }
+    header {
+
+        .logo {
+            width: 35vw;
+        }
+    }
+
+    .menus {
+        width: 40vw;
+    }
+
+    .menus__note-enchantee {
+        h2 {
+            font-size: 4vw;
+        }
+
+        h3 {
+            font-size: 4.5vw;
+        }
+    }
+
+    .menus__chic-a-la-francaise {
+        h2 {
+            font-size: 3vw;
+        }
+
+        h3 {
+            font-size: 4.5vw;
+        }
+    }
+
+    .menus__delice-des-papilles {
+        h2 {
+            font-size: 4vw;
+        }
+
+        h3 {
+            font-size: 4.5vw;
+        }
+    }
+
+    .menus__palette-du-gout {
+        h2 {
+            font-size: 4vw;
+        }
+
+        h3 {
+            font-size: 4.5vw;
+        }
+    }
+    .note-enchantee__content {
+        width: 85vw;
+
+        h2{
+            font-size: 5vw;
+        }
+
+        h3 {
+            font-size: 3vw;
+        }
+    }
+
+    .soon {
+        width: 35vw;
+        font-size: 2.5vw;
+    }
+
+    footer {
+        font-size: 2.5vw;
+        height: 7vh;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 2.5vw;
+    }
+    header {
+
+        .logo {
+            width: 45vw;
+        }
+    }
+
+    .menus {
+        width: 95vw;
+        height: 40vh;
+    }
+
+    .menus__note-enchantee {
+        h2 {
+            font-size: 6.5vw;
+        }
+
+        h3 {
+            font-size: 8vw;
+        }
+    }
+
+    .menus__chic-a-la-francaise {
+        h2 {
+            font-size: 6vw;
+        }
+
+        h3 {
+            font-size: 8vw;
+        }
+    }
+
+    .menus__delice-des-papilles {
+        h2 {
+            font-size: 6.5vw;
+        }
+
+        h3 {
+            font-size: 8vw;
+        }
+    }
+
+    .menus__palette-du-gout {
+        h2 {
+            font-size: 6.2vw;
+        }
+
+        h3 {
+            font-size: 8vw;
+        }
+    }
+    .note-enchantee__content {
+        width: 85vw;
+
+        h2{
+            font-size: 5vw;
+        }
+
+        h3 {
+            font-size: 3vw;
+        }
+    }
 
     #menus-ligne-1, #menus-ligne-2 {
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
     }
 
-    .lignemenu {
-        margin-bottom: 25px;
-    }
-
     .note-enchantee__content {
-        width: 100%;
+        width: 95vw;
+        
+        h2{
+            font-size: 5vw;
+        }
+
+        h3 {
+            font-size: 3vw;
+        }
     }
 
     .chic-francaise__content {
-        width: 100%;
+        width: 95vw;
         
-        p {
-            padding-left: 50px;
-        } 
+        h2{
+            font-size: 6vw;
+        }
 
-        span {
-            padding-right: 50px;
+        h3 {
+            font-size: 4vw;
         }
     }
-
-    .delice-papille__content {
-        width: 100%;
-    }
-
-        p {
-            padding-left: 50px;
-        } 
-
-        strong {
-            padding-right: 50px;
-        }
 
     .palette-gout__content {
-        width: 100%;
-
-        p {
-            padding-left: 50px;
-        } 
-
-        strong {
-            padding-right: 50px;
-        }
-    }
-}
-
-
-@media screen and (max-width: 750px) {
-
-    body {
-        font-size: 18px;
-    }
-    .lignemenu {
-                display: flex;
-                justify-content: space-between;
-                flex-direction: column;
-                text-align: center;
-                margin-bottom: 35px;
-                width: 100%;
-    }
-
-    .note-enchantee__content {
-        h2 {
-            font-size: 2em;
-        }
-        .fa-music {
-            font-size: 3em;
-        }
+        width: 95vw;
         
+        h2{
+            font-size: 7.5vw;
+        }
+
         h3 {
-            font-size: 1.5em;
+            font-size: 3.5vw;
         }
-
-        p {
-            padding-left: 0;
-            margin-bottom: 10px;
-        }
-
-        strong {
-            padding-right: 0;
-            margin-left: 0;
-        }
-
-        .entrees, .plats, .desserts {
-            padding: 40px 10px;
-        }
-        
-        .footer-note-enchantee {
-            font-size: 0.9em;
-
-            h2 {
-                font-size: 2em;
-            }
-        }
-    }
-    
-    .chic-francaise__content {
-        h2 {
-            font-size: 2em;
-        }
-        .fa-music {
-            font-size: 3em;
-        }
-        
-        h3 {
-            font-size: 1.5em;
-        }
-
-        p {
-            padding-left: 0;
-            margin-bottom: 10px;
-        }
-
-        span {
-            padding-right: 0;
-        }
-
-        .entrees, .plats, .desserts {
-            padding: 40px 10px;
-        }
-    }
-
-    .delice-papille__content {
-         h2 {
-            font-size: 3.5em;
-        }
-        .fa-music {
-            font-size: 3em;
-        }
-        
-        h3 {
-            font-size: 1.5em;
-        }
-
-        p {
-            padding-left: 0;
-            margin-bottom: 10px;
-        }
-
-        strong {
-            padding-right: 0;
-            margin-left: 0; 
-        }
-
-        .entrees, .plats, .desserts {
-            padding: 40px 10px;
-        }
-    }
-    
-    .palette-gout__content {
-         h2 {
-            font-size: 3.5em;
-        }
-        .fa-music {
-            font-size: 3em;
-        }
-        
-        h3 {
-            font-size: 1.5em;
-        }
-
-        p {
-            padding-left: 0;
-            margin-bottom: 10px;
-        }
-
-        strong {
-            padding-right: 0;
-        }
-
-        .entrees, .plats, .desserts {
-            padding: 40px 10px;
-        }
-    }
-
-    footer {
-        font-size: 1em;
-    }
-}
-
-
-@media screen and (max-width: 550px) {
-    header {
-        .logo {
-            width: 250px;
-        }
-    }
-
-     .menus {
-        width: 95%;
-        height: 600px;
-        margin-right: 0;
-        margin-left: 0;
     }
 
     .soon {
-        font-size: 1em;
-        width: 80%;
+        width: 60vw;
+        font-size: 3vw;
     }
 
     footer {
-        font-size: 0.9em;
-
-        .link-animation {
-            margin-left: 0;
-            margin-right: 0;
-            padding: 0 5px;
-        }
+        font-size: 3vw;
     }
 }
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+    body {
+        font-size: 3.8vw;
+    }
+
+    header {
+
+        .logo {
+            width: 70vw;
+        }
+    }
+
+     .note-enchantee__content {
+        width: 95vw;
+        
+        h2{
+            font-size: 6.5vw;
+        }
+
+        h3 {
+            font-size: 4.5vw;
+        }
+
+        .lignemenu {
+            display: flex; 
+            flex-direction: column;
+            text-align: center;
+            margin-bottom: 2vh;
+        }
+    }
+
+    .chic-francaise__content {
+        width: 95vw;
+        
+        h2{
+            font-size: 8vw;
+        }
+
+        h3 {
+            font-size: 5vw;
+        }
+    }
+
+    .delice-papille__content {
+        width: 95vw;
+        
+        h2{
+            font-size: 12vw;
+        }
+
+        h3 {
+            font-size: 4.8vw;
+        }
+    }
+
+    .palette-gout__content {
+        width: 95vw;
+        
+        h2{
+            font-size: 12vw;
+        }
+
+        h3 {
+            font-size: 4.8vw;
+        }
+    }
+
+    .soon {
+        width: 60vw;
+        font-size: 5vw;
+    }
+
+    footer {
+        font-size: 5vw;
+        height: 6vh;
+    }
+}
+

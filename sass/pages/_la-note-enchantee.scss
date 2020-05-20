@@ -7,14 +7,14 @@
         justify-content: flex-start;
         align-items: center;
         flex-direction: column;
-        width: 1500px;
-        margin-top: 50px;
-        margin-bottom: 150px;
+        width: 60vw;
+        margin-top: 4vh;
+        margin-bottom: 14vh;
         background-color: $bg-menu-1;
 
         .fa-music {
-            padding-top: 50px;
-            margin-top: 3%;
+            padding-top: 4vh;
+            margin-top: 3vh;
             @include music-gradient(90deg, $music-color-1, $music-color-2);
         }
 
@@ -25,7 +25,7 @@
             flex-wrap: wrap;
             width: 100%;
             height: 100%;
-            padding: 40px 80px;
+            padding: 2vh 4vw;
 
             .entrees__title {
             display: flex;
@@ -33,11 +33,11 @@
             flex-direction: row;
             flex-wrap: nowrap;
             width: 100%;
-            margin-bottom: 20px;
+            margin-bottom: 2vh;
             }
 
             img {
-                width: 25%;
+                width: 15vw;
                 align-self: center;
                 overflow: hidden;
             }
@@ -72,12 +72,12 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin:100px;
+    margin:5vw;
 
     .fa-music {
         padding: 0;
         margin: 0;
-        margin-right: 30px;
+        margin-right: 2vw;
         @include music-gradient(90deg, $music-color-1, $music-color-2);
     }
 }

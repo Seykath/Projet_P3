@@ -22,7 +22,7 @@
 
 
 body {
-    font-size: 25px;
+    font-size: 1.2vw;
     color: $text-color;
 }
 
@@ -30,7 +30,7 @@ body {
 .menus__note-enchantee {
     h2{
     font-family: 'Devonshire', cursive;
-    font-size: 48px;
+    font-size: 2vw;
     font-weight: normal;
     margin: 0;
     text-align: center;
@@ -39,10 +39,10 @@ body {
 
     h3{
     font-family: 'Segoe Print', serif;
-    font-size: 60px;
+    font-size: 2.5vw;
     font-weight: bold;
     text-transform: uppercase;
-    margin-top: 30px;
+    margin-top: 2.5vh;
     margin-bottom: 0;
     text-align: center;
     color: $menu-note-color;
@@ -56,7 +56,7 @@ body {
 
         h2 {
             font-family: 'Devonshire', cursive;
-            font-size: 80px;
+            font-size: 3vw;
             font-weight: normal;
             text-align: center;
             margin-bottom: 50px;
@@ -65,7 +65,7 @@ body {
 
         h3 {
             font-family: 'Segoe Print', serif;
-            font-size: 30px;
+            font-size: 1.7vw;
             font-weight: bold;
             text-align: center;
             white-space: nowrap;
@@ -83,7 +83,6 @@ body {
 
         strong {
             font-family: 'Segoe Print', serif;
-            margin-left: 20px;
         }
 
         .footer-note-enchantee {
@@ -100,7 +99,7 @@ body {
 .menus__chic-a-la-francaise {
     h2{
     font-family: 'Croissant One', cursive;
-    font-size: 35px;
+    font-size: 1.5vw;
     text-align: center;
     margin: 0;
     @include title-gradient(150deg, #e38a12, #8f5aff);
@@ -108,10 +107,10 @@ body {
 
     h3{
     font-family: 'Serif'; /* TO DO police à redéfinir */
-    font-size: 60px;
+    font-size: 2.5vw;
     font-weight: bold;
     color: #c77412;
-    margin-top: 30px;
+    margin-top: 3vh;
     margin-bottom: 0;
     text-align: center;
     }
@@ -124,19 +123,20 @@ body {
 
         h2 {
             font-family: 'Croissant one', cursive;
-            font-size: 70px;
+            font-size: 3vw;
             text-align: center;
-            margin-top: 100px;
-            margin-bottom: 150px;
+            margin-top: 5vh;
+            margin-bottom: 6vh;
             @include title-gradient(150deg, #e38a12, #8f5aff);
         }
 
         h3 {
             font-family: 'Serif';
-            font-size: 35px;
+            font-size: 1.8vw;
             font-weight: bold;
+            white-space: nowrap;
             text-align: center;
-            margin: 0 20px;
+            margin: 0 1.5vw;
         }
         .underline-1 {
             @include underline-menus($chic-color-1);
@@ -155,11 +155,11 @@ body {
         
         p {
             font-family: 'Serif';
-            padding-left: 150px;
+            padding-left: 4.5vw;
         } 
 
         span {
-            padding-right: 150px;
+            padding-right: 4.5vw;
         }
     }
 }
@@ -170,7 +170,7 @@ body {
 .menus__delice-des-papilles {
     h2{
     font-family: 'Dancing Script', cursive;
-    font-size: 50px;
+    font-size: 2vw;
     text-align: center;
     margin: 0;
     padding: 5px;
@@ -179,9 +179,9 @@ body {
 
     h3{
     font-family: 'Segoe Print', serif; 
-    font-size: 60px;
+    font-size: 3vw;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 3vh;
     margin-bottom: 0;
     color: #0887fb;
     }
@@ -194,19 +194,22 @@ body {
 
         h2 {
             font-family: 'Dancing Script', cursive;
-            font-size: 100px;
+            font-size: 4.5vw;
             text-align: center;
-            margin-top: 100px;
-            margin-bottom: 150px;
+            margin-top: 5vh;
+            margin-bottom: 6vh;
+            padding-left: 1vw;
+            padding-right: 1vw;
             @include title-gradient(45deg, #0023db, #229df9);
         }
 
         h3 {
             font-family: 'Segoe Print', serif;
-            font-size: 30px;
+            font-size: 1.7vw;
             font-weight: bold;
             text-align: center;
-            margin: 0 20px;
+            white-space: nowrap;
+            margin: 0 2vw;
         }
 
         .underline-1 {
@@ -226,13 +229,12 @@ body {
         
         p {
             font-family: 'Segoe Print', serif;
-            padding-left: 120px;
+            padding-left: 4vw;
         }
 
         strong {
             font-family: 'Segoe Print', serif;
-            margin-left: 20px;
-            padding-right: 120px;
+            padding-right: 4vw;
         }
     }
 }
@@ -243,7 +245,7 @@ body {
 .menus__palette-du-gout {
     h2{
     font-family: 'Kaushan Script', cursive;
-    font-size: 45px;
+    font-size: 2vw;
     text-align: center;
     margin: 0;
     @include title-gradient(120deg, $palette-color-1, $palette-color-2);
@@ -251,9 +253,9 @@ body {
 
     h3{
     font-family: 'Segoe Print', serif;
-    font-size: 60px;
+    font-size: 3vw;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 3vh;
     margin-bottom: 0;
     color: #72bf56;
     }
@@ -266,19 +268,20 @@ body {
 
         h2 {
             font-family: 'Kaushan Script', cursive;
-            font-size: 100px;
+            font-size: 4.5vw;
             text-align: center;
-            margin-top: 100px;
-            margin-bottom: 150px;
+            margin-top: 5vh;
+            margin-bottom: 6vh;
             @include title-gradient(120deg, $palette-color-1, $palette-color-2);
         }
 
         h3 {
             font-family: 'Segoe Print', serif;
-            font-size: 30px;
+            font-size: 1.8vw;
+            white-space: nowrap;
             font-weight: bold;
             text-align: center;
-            margin: 0 20px;
+            margin: 0 2vw;
         }
 
         .underline-1 {
@@ -298,12 +301,12 @@ body {
         
         p {
             font-family: 'Segoe Print', serif;
-            padding-left: 120px;
+            padding-left: 4vw;
         }
 
         strong {
             font-family: 'Segoe Print', serif;
-            padding-right: 120px;
+            padding-right: 4vw;
         }
     }
 }
@@ -315,6 +318,7 @@ body {
     font-weight: bold;
     text-align: center;
     font-size: 30px;
+    white-space: nowrap;
 
     span {
         letter-spacing: 5px;

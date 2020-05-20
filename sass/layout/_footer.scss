@@ -2,7 +2,7 @@ footer {
     display:flex;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
+    height: 9vh;
     width: 100%;
     background-color: $primary;
     border-top: 2px solid #a1c181;
@@ -13,8 +13,8 @@ footer {
     a {
         text-decoration: none;
         color: $secondary;
-        margin-left: 20px;
-        margin-right: 20px;
+        padding-left: 2vw;
+        padding-right: 2vw;
     }
 
     .link-animation {

@@ -10,14 +10,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+     margin: 4% auto;
 
 }
 
 // Taille des boîtes des menus + effet de contour + ombre des boîtes
 .menus{
-    width: 500px;
-    height: 700px;
-    margin: 80px;
+    width: 20vw;
+    height: 50vh;
+    margin: 0 20px;
     box-shadow: $article-box-shadow;
     overflow: hidden;
 
@@ -27,7 +28,7 @@
         transition: all 0.4s;
 
         .fa-music{
-            margin-bottom: 10px;
+            margin-bottom: 1vh;
             @include music-gradient(90deg, $music-color-1, $music-color-2);
         }
 
@@ -52,9 +53,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 380px;
-    margin-top: 40px;
-    margin-bottom: 150px;
+    width: 18vw;
+    height: 4.5vh;
+    margin-top: 5vh;
+    margin-bottom: 15vh;
     margin-left: auto;
     margin-right: auto;
     background-color: $primary;
@@ -65,7 +67,7 @@
 // Effet des points de suspension à la fin de prochainement
 .point {
     margin: auto;
-    padding: 20px;
+    padding: 1%;
     
     span {
         animation: ellipsis 1.4s infinite both;
