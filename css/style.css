@@ -1114,6 +1114,18 @@ body {
   .delice-papille__content h3 {
     font-size: 4.8vw;
   }
+  .delice-papille__content .lignemenu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 2vh;
+  }
+  .delice-papille__content .lignemenu p {
+    padding: 0;
+  }
+  .delice-papille__content .lignemenu strong {
+    padding: 0;
+  }
 
   .palette-gout__content {
     width: 95vw;
@@ -1123,6 +1135,18 @@ body {
   }
   .palette-gout__content h3 {
     font-size: 4.8vw;
+  }
+  .palette-gout__content .lignemenu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 2vh;
+  }
+  .palette-gout__content .lignemenu p {
+    padding: 0;
+  }
+  .palette-gout__content .lignemenu strong {
+    padding: 0;
   }
 
   .soon {
