@@ -13,3 +13,95 @@ body {
 
 // Reponsive
 
+@media screen and (max-width: 1000px) {
+    #menus-ligne-1, #menu-ligne-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+
+    .note-enchantee__content {
+        width: 100%;
+    }
+
+    .chic-francaise__content {
+        width: 100%;
+    }
+
+    .delice-papille__content {
+        width: 100%;
+    }
+
+    .palette-gout__content {
+        width: 100%;
+    }
+
+    .soon {
+        width: 320px;
+    }
+
+    footer {
+        a {
+            padding: 10px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .note-enchantee__content {
+        font-size: 0.8em;
+        .entrees {
+            width: 100%;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        
+        .lignemenu {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+        }
+
+        h1 {
+             font-size: 2.2em;
+        }
+
+        h2 {
+             font-size: 1.4em;
+        }
+
+        p {
+             font-size: 1em;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    header {
+        .logo {
+            display: block;
+            width: 80%;
+        }
+    }
+    .menus {
+        width: 100%;
+    }
+
+    .soon {
+        width: 250px;
+        font-size: 20px;
+    }
+
+    footer {
+        font-size: 18px;
+
+        a {
+            padding: 0 5px;
+        }
+    }
+}

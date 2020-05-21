@@ -756,4 +756,83 @@ body {
   height: 100vh;
 }
 
+@media screen and (max-width: 1000px) {
+  #menus-ligne-1, #menus-ligne-2, #menu-ligne-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .note-enchantee__content {
+    width: 100%;
+  }
+
+  .chic-francaise__content {
+    width: 100%;
+  }
+
+  .delice-papille__content {
+    width: 100%;
+  }
+
+  .palette-gout__content {
+    width: 100%;
+  }
+
+  .soon {
+    width: 320px;
+  }
+
+  footer a {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .note-enchantee__content {
+    font-size: 0.8em;
+  }
+  .note-enchantee__content .entrees, .note-enchantee__content .plats, .note-enchantee__content .desserts {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .note-enchantee__content .lignemenu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .note-enchantee__content h1 {
+    font-size: 2.2em;
+  }
+  .note-enchantee__content h2 {
+    font-size: 1.4em;
+  }
+  .note-enchantee__content p {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 500px) {
+  header .logo {
+    display: block;
+    width: 80%;
+  }
+
+  .menus {
+    width: 100%;
+  }
+
+  .soon {
+    width: 250px;
+    font-size: 20px;
+  }
+
+  footer {
+    font-size: 18px;
+  }
+  footer a {
+    padding: 0 5px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
