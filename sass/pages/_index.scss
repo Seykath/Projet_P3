@@ -6,19 +6,23 @@
 
 
 // Disposition de mes menus sur deux lignes
-#menus-ligne-1, #menus-ligne-2 {
+#menus-ligne-1 {
     display: flex;
     justify-content: center;
     align-items: center;
-     margin: 4% auto;
-
+    margin: 80px auto 0 auto;
 }
+
+ #menus-ligne-2 {
+     @extend #menus-ligne-1;
+     margin-top: 20px;
+ }
 
 // Taille des boîtes des menus + effet de contour + ombre des boîtes
 .menus{
-    width: 20vw;
-    height: 50vh;
-    margin: 0 20px;
+    width: 500px;
+    height: 700px;
+    margin: 0 25px;
     box-shadow: $article-box-shadow;
     overflow: hidden;
 
@@ -28,7 +32,7 @@
         transition: all 0.4s;
 
         .fa-music{
-            margin-bottom: 1vh;
+            margin-bottom: 5px;
             @include music-gradient(90deg, $music-color-1, $music-color-2);
         }
 
@@ -53,12 +57,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 18vw;
-    height: 4.5vh;
-    margin-top: 5vh;
-    margin-bottom: 15vh;
-    margin-left: auto;
-    margin-right: auto;
+    width: 380px;
+    height: 2.5em;
+    margin: 100px auto 150px auto;
     background-color: $primary;
     color: $secondary;
     border-radius: 15px;

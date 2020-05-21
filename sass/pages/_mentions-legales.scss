@@ -1,8 +1,6 @@
 
-.mentions-content {
-    padding: 20px;
-    border-left: 2px $primary solid;
-    border-right: 2px $primary solid;
+.mentions-legales {
+    padding: 5%;
 
      @include mentions;
 }

@@ -22,7 +22,7 @@
 
 
 body {
-    font-size: 1.2vw;
+    font-size: 22px;
     color: $text-color;
 }
 
@@ -30,7 +30,7 @@ body {
 .menus__note-enchantee {
     h2{
     font-family: 'Devonshire', cursive;
-    font-size: 2vw;
+    font-size: 45px;
     font-weight: normal;
     margin: 0;
     text-align: center;
@@ -39,10 +39,10 @@ body {
 
     h3{
     font-family: 'Segoe Print', serif;
-    font-size: 2.5vw;
+    font-size: 60px;
     font-weight: bold;
     text-transform: uppercase;
-    margin-top: 2.5vh;
+    margin-top: 30px;
     margin-bottom: 0;
     text-align: center;
     color: $menu-note-color;
@@ -54,18 +54,18 @@ body {
 
     &__content {
 
-        h2 {
+        h1 {
             font-family: 'Devonshire', cursive;
-            font-size: 3vw;
+            font-size: 55px;
             font-weight: normal;
             text-align: center;
             margin-bottom: 50px;
             color: $menu-note-color;
         }
 
-        h3 {
+        h2 {
             font-family: 'Segoe Print', serif;
-            font-size: 1.7vw;
+            font-size: 30px;
             font-weight: bold;
             text-align: center;
             white-space: nowrap;
@@ -74,21 +74,22 @@ body {
             @include underline-menus($menu-note-color);
             @include underline-hover;
         }
+
+        h3 {
+            font-family: 'Devonshire', cursive;
+            font-size: 45px;
+            font-weight: normal;
+            text-align: center;
+            color: $menu-note-color;
+        }
         
         p {
             font-family: 'Segoe Print', serif;
             color: $menu-note-color;
-            margin-bottom: 1%;
         }
 
         strong {
             font-family: 'Segoe Print', serif;
-        }
-
-        .footer-note-enchantee {
-            h2 {
-                margin-bottom: 0;
-            }
         }
     }
 }
@@ -99,7 +100,7 @@ body {
 .menus__chic-a-la-francaise {
     h2{
     font-family: 'Croissant One', cursive;
-    font-size: 1.5vw;
+    font-size: 32px;
     text-align: center;
     margin: 0;
     @include title-gradient(150deg, #e38a12, #8f5aff);
@@ -107,10 +108,10 @@ body {
 
     h3{
     font-family: 'Serif'; /* TO DO police à redéfinir */
-    font-size: 2.5vw;
+    font-size: 65px;
     font-weight: bold;
     color: #c77412;
-    margin-top: 3vh;
+    margin-top: 35px;
     margin-bottom: 0;
     text-align: center;
     }
@@ -121,22 +122,22 @@ body {
 
     &__content {
 
-        h2 {
+        h1 {
             font-family: 'Croissant one', cursive;
-            font-size: 3vw;
+            font-size: 50px;
             text-align: center;
             margin-top: 5vh;
             margin-bottom: 6vh;
             @include title-gradient(150deg, #e38a12, #8f5aff);
         }
 
-        h3 {
+        h2 {
             font-family: 'Serif';
-            font-size: 1.8vw;
+            font-size: 30px;
             font-weight: bold;
             white-space: nowrap;
             text-align: center;
-            margin: 0 1.5vw;
+            margin: 0 15px;
         }
         .underline-1 {
             @include underline-menus($chic-color-1);
@@ -155,11 +156,12 @@ body {
         
         p {
             font-family: 'Serif';
-            padding-left: 4.5vw;
+            font-size: 25px;
         } 
 
         span {
-            padding-right: 4.5vw;
+            font-family: 'Serif';
+            font-size : 25px;
         }
     }
 }
@@ -170,18 +172,18 @@ body {
 .menus__delice-des-papilles {
     h2{
     font-family: 'Dancing Script', cursive;
-    font-size: 2vw;
+    font-size: 50px;
     text-align: center;
     margin: 0;
-    padding: 5px;
+    padding:0 5px;
     @include title-gradient(45deg, #0023db, #0889fb);
     }
 
     h3{
     font-family: 'Segoe Print', serif; 
-    font-size: 3vw;
+    font-size: 65px;
     text-align: center;
-    margin-top: 3vh;
+    margin-top: 15px;
     margin-bottom: 0;
     color: #0887fb;
     }
@@ -192,24 +194,24 @@ body {
 
     &__content {
 
-        h2 {
+        h1 {
             font-family: 'Dancing Script', cursive;
-            font-size: 4.5vw;
+            font-size: 90px;
             text-align: center;
             margin-top: 5vh;
             margin-bottom: 6vh;
-            padding-left: 1vw;
-            padding-right: 1vw;
+            padding-left: 5px;
+            padding-right: 5px;
             @include title-gradient(45deg, #0023db, #229df9);
         }
 
-        h3 {
+        h2 {
             font-family: 'Segoe Print', serif;
-            font-size: 1.7vw;
+            font-size: 32px;
             font-weight: bold;
             text-align: center;
             white-space: nowrap;
-            margin: 0 2vw;
+            margin: 0 60px;
         }
 
         .underline-1 {
@@ -229,12 +231,11 @@ body {
         
         p {
             font-family: 'Segoe Print', serif;
-            padding-left: 4vw;
+            font-weight: bold;
         }
 
         strong {
             font-family: 'Segoe Print', serif;
-            padding-right: 4vw;
         }
     }
 }
@@ -245,7 +246,7 @@ body {
 .menus__palette-du-gout {
     h2{
     font-family: 'Kaushan Script', cursive;
-    font-size: 2vw;
+    font-size: 45px;
     text-align: center;
     margin: 0;
     @include title-gradient(120deg, $palette-color-1, $palette-color-2);
@@ -253,9 +254,9 @@ body {
 
     h3{
     font-family: 'Segoe Print', serif;
-    font-size: 3vw;
+    font-size: 65px;
     text-align: center;
-    margin-top: 3vh;
+    margin-top: 15px;
     margin-bottom: 0;
     color: #72bf56;
     }
@@ -266,18 +267,18 @@ body {
 
     &__content {
 
-        h2 {
+        h1 {
             font-family: 'Kaushan Script', cursive;
-            font-size: 4.5vw;
+            font-size: 85px;
             text-align: center;
-            margin-top: 5vh;
+            margin-top: 4vh;
             margin-bottom: 6vh;
             @include title-gradient(120deg, $palette-color-1, $palette-color-2);
         }
 
-        h3 {
+        h2 {
             font-family: 'Segoe Print', serif;
-            font-size: 1.8vw;
+            font-size: 30px;
             white-space: nowrap;
             font-weight: bold;
             text-align: center;
@@ -301,12 +302,11 @@ body {
         
         p {
             font-family: 'Segoe Print', serif;
-            padding-left: 4vw;
+            font-weight: bold;
         }
 
         strong {
             font-family: 'Segoe Print', serif;
-            padding-right: 4vw;
         }
     }
 }
@@ -317,7 +317,7 @@ body {
     font-family: 'Montserrat', 'sans-serif';
     font-weight: bold;
     text-align: center;
-    font-size: 30px;
+    font-size: 27px;
     white-space: nowrap;
 
     span {
@@ -328,7 +328,7 @@ body {
 /* Footer */
 footer{
     font-family: 'Montserrat', 'sans-serif';
-    font-size: 30px;
+    font-size: 27px;
     font-weight: bold;
 }
 
@@ -341,19 +341,30 @@ footer{
     h1 {
         text-align: center;
         font-size: 40px;
+        font-weight: bold;
         margin-bottom: 80px;
+        border-bottom: 1px black solid;
     }
 
     .chapitre {
         text-transform: uppercase;
         font-weight: bold;
         text-align: center;
-        padding-top: 40px;
+        margin-top: 40px;
+        margin-bottom: 30px;
     }
     
     .infos {
         line-height: 30px;
         text-align: center;
-        padding-bottom: 30px;
+        margin-bottom: 50px;
+    }
+
+    h4 {
+        border-bottom: 1px black solid;
+    }
+
+    p {
+        margin-bottom: 40px;
     }
 }
