@@ -14,12 +14,19 @@ body {
 // Reponsive
 
 @media screen and (max-width: 1000px) {
-    #menus-ligne-1, #menu-ligne-2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    }
+    #menus-ligne-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 20px;
+        }
+    #menu-ligne-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        }
 
     .note-enchantee__content {
         width: 100%;
@@ -50,6 +57,18 @@ body {
 
 
 @media screen and (max-width: 800px) {
+
+    .menus {
+        margin-bottom: 20px;
+    }
+
+    #menus-ligne-1 {
+        margin-top: 20px;
+    }
+
+    #menus-ligne-2 {
+        margin-top: 0;
+    }
 
     .note-enchantee__content {
         font-size: 0.8em;
@@ -276,13 +295,25 @@ body {
             width: 80%;
         }
     }
+
     .menus {
-        width: 100%;
+        width: 95%;
+        height: 450px;
+        margin-bottom: 20px;
+    }
+
+    #menus-ligne-1 {
+        margin-top: 10px;
+    }
+
+    #menus-ligne-2 {
+        margin-top: 0;
     }
 
     .soon {
         width: 250px;
         font-size: 20px;
+        margin-top: 40px;
     }
 
     footer {

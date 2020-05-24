@@ -119,14 +119,14 @@ footer .link-animation:hover {
 }
 
 #menus-ligne-2 {
-  margin-top: 20px;
+  margin-top: 60px;
 }
 
 .menus {
   width: 500px;
   height: 700px;
-  margin: 0 25px;
-  box-shadow: 5px 5px 6px #ededed;
+  margin: 0 40px;
+  box-shadow: 0 0 15px 5px #ededed;
   overflow: hidden;
 }
 .menus__note-enchantee {
@@ -149,8 +149,8 @@ footer .link-animation:hover {
   transform: scale(1.2);
   opacity: 0.6;
 }
-.menus__chic-a-la-francaise, .menus__delice-des-papilles, .menus__palette-du-gout {
-  background-color: #ffff;
+.menus__chic-a-la-francaise {
+  background-color: #fff5fe;
   transition: all 0.4s;
   display: flex;
   justify-content: center;
@@ -159,7 +159,35 @@ footer .link-animation:hover {
   width: 100%;
   height: 100%;
 }
-.menus__chic-a-la-francaise:hover, .menus__delice-des-papilles:hover, .menus__palette-du-gout:hover {
+.menus__chic-a-la-francaise:hover {
+  transform: scale(1.2);
+  opacity: 0.6;
+}
+.menus__delice-des-papilles {
+  background-color: #f9f9f9;
+  transition: all 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.menus__delice-des-papilles:hover {
+  transform: scale(1.2);
+  opacity: 0.6;
+}
+.menus__palette-du-gout {
+  background-color: #fdfffd;
+  transition: all 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.menus__palette-du-gout:hover {
   transform: scale(1.2);
   opacity: 0.6;
 }
@@ -273,6 +301,7 @@ footer .link-animation:hover {
   width: 1000px;
   margin-top: 4vh;
   margin-bottom: 14vh;
+  background-color: #fff5fe;
 }
 .chic-francaise__content .entrees, .chic-francaise__content .desserts, .chic-francaise__content .plats {
   display: flex;
@@ -281,7 +310,7 @@ footer .link-animation:hover {
   flex-wrap: wrap;
   width: 100%;
   height: 100%;
-  padding: 2em 0;
+  padding: 2em 1em;
   color: #c77412;
 }
 .chic-francaise__content .entrees .entrees__title, .palette-gout__content .desserts .chic-francaise__content .entrees .desserts__title, .palette-gout__content .plats .chic-francaise__content .entrees .plats__title, .palette-gout__content .plats .chic-francaise__content .desserts .plats__title, .delice-papille__content .desserts .chic-francaise__content .entrees .desserts__title, .delice-papille__content .plats .chic-francaise__content .entrees .plats__title, .delice-papille__content .plats .chic-francaise__content .desserts .plats__title, .chic-francaise__content .desserts .entrees__title, .chic-francaise__content .desserts .desserts__title, .chic-francaise__content .plats .entrees__title, .palette-gout__content .desserts .chic-francaise__content .plats .desserts__title, .delice-papille__content .desserts .chic-francaise__content .plats .desserts__title, .chic-francaise__content .plats .plats__title, .note-enchantee__content .plats .chic-francaise__content .entrees .plats__title, .note-enchantee__content .plats .chic-francaise__content .desserts .plats__title, .note-enchantee__content .desserts .chic-francaise__content .entrees .desserts__title, .note-enchantee__content .desserts .chic-francaise__content .plats .desserts__title {
@@ -332,6 +361,7 @@ footer .link-animation:hover {
   width: 1000px;
   margin-top: 4vh;
   margin-bottom: 14vh;
+  background-color: #f9f9f9;
 }
 .delice-papille__content .entrees, .delice-papille__content .desserts, .delice-papille__content .plats {
   display: flex;
@@ -340,7 +370,7 @@ footer .link-animation:hover {
   flex-wrap: wrap;
   width: 100%;
   height: 100%;
-  padding: 2em 0;
+  padding: 2em 1em;
 }
 .delice-papille__content .entrees .entrees__title, .palette-gout__content .desserts .delice-papille__content .entrees .desserts__title, .palette-gout__content .plats .delice-papille__content .entrees .plats__title, .palette-gout__content .plats .delice-papille__content .desserts .plats__title, .delice-papille__content .desserts .entrees__title, .delice-papille__content .desserts .desserts__title, .delice-papille__content .plats .entrees__title, .palette-gout__content .desserts .delice-papille__content .plats .desserts__title, .delice-papille__content .plats .plats__title, .note-enchantee__content .plats .delice-papille__content .entrees .plats__title, .note-enchantee__content .plats .delice-papille__content .desserts .plats__title, .note-enchantee__content .desserts .delice-papille__content .entrees .desserts__title, .note-enchantee__content .desserts .delice-papille__content .plats .desserts__title, .chic-francaise__content .plats .delice-papille__content .entrees .plats__title, .chic-francaise__content .plats .delice-papille__content .desserts .plats__title, .chic-francaise__content .desserts .delice-papille__content .entrees .desserts__title, .chic-francaise__content .desserts .delice-papille__content .plats .desserts__title {
   display: flex;
@@ -376,6 +406,7 @@ footer .link-animation:hover {
   width: 1000px;
   margin-top: 4vh;
   margin-bottom: 14vh;
+  background-color: #fdfffd;
 }
 .palette-gout__content .entrees, .palette-gout__content .desserts, .palette-gout__content .plats {
   display: flex;
@@ -384,7 +415,7 @@ footer .link-animation:hover {
   flex-wrap: wrap;
   width: 100%;
   height: 100%;
-  padding: 2em 0;
+  padding: 2em 1em;
 }
 .palette-gout__content .entrees .entrees__title, .palette-gout__content .entrees .desserts .desserts__title, .palette-gout__content .desserts .entrees .desserts__title, .palette-gout__content .desserts .entrees__title, .palette-gout__content .desserts .desserts__title, .palette-gout__content .entrees .plats .plats__title, .palette-gout__content .desserts .plats .plats__title, .palette-gout__content .plats .entrees .plats__title, .palette-gout__content .plats .desserts .plats__title, .palette-gout__content .plats .entrees__title, .palette-gout__content .plats .desserts .desserts__title, .palette-gout__content .desserts .plats .desserts__title, .palette-gout__content .plats .plats__title, .palette-gout__content .note-enchantee__content .plats .entrees__title, .palette-gout__content .note-enchantee__content .plats .desserts .desserts__title, .palette-gout__content .desserts .note-enchantee__content .plats .desserts__title, .palette-gout__content .note-enchantee__content .plats .plats__title, .note-enchantee__content .palette-gout__content .plats .entrees__title, .note-enchantee__content .palette-gout__content .plats .desserts .desserts__title, .note-enchantee__content .palette-gout__content .desserts .plats .desserts__title, .note-enchantee__content .palette-gout__content .plats .plats__title, .palette-gout__content .note-enchantee__content .desserts .entrees__title, .palette-gout__content .note-enchantee__content .desserts .desserts__title, .palette-gout__content .note-enchantee__content .desserts .plats .plats__title, .palette-gout__content .plats .note-enchantee__content .desserts .plats__title, .note-enchantee__content .palette-gout__content .desserts .entrees__title, .note-enchantee__content .palette-gout__content .desserts .desserts__title, .note-enchantee__content .palette-gout__content .desserts .plats .plats__title, .note-enchantee__content .palette-gout__content .plats .desserts .plats__title, .palette-gout__content .chic-francaise__content .plats .entrees__title, .palette-gout__content .chic-francaise__content .plats .desserts .desserts__title, .palette-gout__content .desserts .chic-francaise__content .plats .desserts__title, .palette-gout__content .chic-francaise__content .plats .plats__title, .chic-francaise__content .palette-gout__content .plats .entrees__title, .chic-francaise__content .palette-gout__content .plats .desserts .desserts__title, .chic-francaise__content .palette-gout__content .desserts .plats .desserts__title, .chic-francaise__content .palette-gout__content .plats .plats__title, .palette-gout__content .chic-francaise__content .desserts .entrees__title, .palette-gout__content .chic-francaise__content .desserts .desserts__title, .palette-gout__content .chic-francaise__content .desserts .plats .plats__title, .palette-gout__content .plats .chic-francaise__content .desserts .plats__title, .chic-francaise__content .palette-gout__content .desserts .entrees__title, .chic-francaise__content .palette-gout__content .desserts .desserts__title, .chic-francaise__content .palette-gout__content .desserts .plats .plats__title, .chic-francaise__content .palette-gout__content .plats .desserts .plats__title, .palette-gout__content .delice-papille__content .plats .entrees__title, .palette-gout__content .delice-papille__content .plats .desserts .desserts__title, .palette-gout__content .desserts .delice-papille__content .plats .desserts__title, .palette-gout__content .delice-papille__content .plats .plats__title, .delice-papille__content .palette-gout__content .plats .entrees__title, .delice-papille__content .palette-gout__content .plats .desserts .desserts__title, .delice-papille__content .palette-gout__content .desserts .plats .desserts__title, .delice-papille__content .palette-gout__content .plats .plats__title, .palette-gout__content .delice-papille__content .desserts .entrees__title, .palette-gout__content .delice-papille__content .desserts .desserts__title, .palette-gout__content .delice-papille__content .desserts .plats .plats__title, .palette-gout__content .plats .delice-papille__content .desserts .plats__title, .delice-papille__content .palette-gout__content .desserts .entrees__title, .delice-papille__content .palette-gout__content .desserts .desserts__title, .delice-papille__content .palette-gout__content .desserts .plats .plats__title, .delice-papille__content .palette-gout__content .plats .desserts .plats__title, .palette-gout__content .entrees .note-enchantee__content .plats .plats__title, .palette-gout__content .desserts .note-enchantee__content .plats .plats__title, .palette-gout__content .plats .note-enchantee__content .plats .plats__title, .note-enchantee__content .plats .palette-gout__content .entrees .plats__title, .note-enchantee__content .plats .palette-gout__content .desserts .plats__title, .note-enchantee__content .plats .palette-gout__content .plats .plats__title, .palette-gout__content .note-enchantee__content .plats .plats__title, .note-enchantee__content .palette-gout__content .plats .plats__title, .palette-gout__content .note-enchantee__content .desserts .plats .plats__title, .palette-gout__content .note-enchantee__content .plats .desserts .plats__title, .note-enchantee__content .palette-gout__content .desserts .plats .plats__title, .note-enchantee__content .plats .palette-gout__content .desserts .plats__title, .palette-gout__content .chic-francaise__content .note-enchantee__content .plats .plats__title, .note-enchantee__content .palette-gout__content .chic-francaise__content .plats .plats__title, .chic-francaise__content .palette-gout__content .note-enchantee__content .plats .plats__title, .note-enchantee__content .chic-francaise__content .palette-gout__content .plats .plats__title, .palette-gout__content .chic-francaise__content .desserts .note-enchantee__content .plats .plats__title, .note-enchantee__content .plats .palette-gout__content .chic-francaise__content .desserts .plats__title, .chic-francaise__content .palette-gout__content .desserts .note-enchantee__content .plats .plats__title, .note-enchantee__content .plats .chic-francaise__content .palette-gout__content .desserts .plats__title, .palette-gout__content .delice-papille__content .note-enchantee__content .plats .plats__title, .note-enchantee__content .palette-gout__content .delice-papille__content .plats .plats__title, .delice-papille__content .palette-gout__content .note-enchantee__content .plats .plats__title, .note-enchantee__content .delice-papille__content .palette-gout__content .plats .plats__title, .palette-gout__content .delice-papille__content .desserts .note-enchantee__content .plats .plats__title, .note-enchantee__content .plats .palette-gout__content .delice-papille__content .desserts .plats__title, .delice-papille__content .palette-gout__content .desserts .note-enchantee__content .plats .plats__title, .note-enchantee__content .plats .delice-papille__content .palette-gout__content .desserts .plats__title, .palette-gout__content .entrees .note-enchantee__content .desserts .desserts__title, .palette-gout__content .desserts .note-enchantee__content .desserts .desserts__title, .palette-gout__content .plats .note-enchantee__content .desserts .desserts__title, .note-enchantee__content .desserts .palette-gout__content .entrees .desserts__title, .note-enchantee__content .desserts .palette-gout__content .desserts .desserts__title, .note-enchantee__content .desserts .palette-gout__content .plats .desserts__title, .palette-gout__content .note-enchantee__content .plats .desserts .desserts__title, .palette-gout__content .note-enchantee__content .desserts .plats .desserts__title, .note-enchantee__content .palette-gout__content .plats .desserts .desserts__title, .note-enchantee__content .desserts .palette-gout__content .plats .desserts__title, .palette-gout__content .note-enchantee__content .desserts .desserts__title, .note-enchantee__content .palette-gout__content .desserts .desserts__title, .palette-gout__content .chic-francaise__content .plats .note-enchantee__content .desserts .desserts__title, .note-enchantee__content .desserts .palette-gout__content .chic-francaise__content .plats .desserts__title, .chic-francaise__content .palette-gout__content .plats .note-enchantee__content .desserts .desserts__title, .note-enchantee__content .desserts .chic-francaise__content .palette-gout__content .plats .desserts__title, .palette-gout__content .chic-francaise__content .note-enchantee__content .desserts .desserts__title, .note-enchantee__content .palette-gout__content .chic-francaise__content .desserts .desserts__title, .chic-francaise__content .palette-gout__content .note-enchantee__content .desserts .desserts__title, .note-enchantee__content .chic-francaise__content .palette-gout__content .desserts .desserts__title, .palette-gout__content .delice-papille__content .plats .note-enchantee__content .desserts .desserts__title, .note-enchantee__content .desserts .palette-gout__content .delice-papille__content .plats .desserts__title, .delice-papille__content .palette-gout__content .plats .note-enchantee__content .desserts .desserts__title, .note-enchantee__content .desserts .delice-papille__content .palette-gout__content .plats .desserts__title, .palette-gout__content .delice-papille__content .note-enchantee__content .desserts .desserts__title, .note-enchantee__content .palette-gout__content .delice-papille__content .desserts .desserts__title, .delice-papille__content .palette-gout__content .note-enchantee__content .desserts .desserts__title, .note-enchantee__content .delice-papille__content .palette-gout__content .desserts .desserts__title, .palette-gout__content .entrees .chic-francaise__content .plats .plats__title, .palette-gout__content .desserts .chic-francaise__content .plats .plats__title, .palette-gout__content .plats .chic-francaise__content .plats .plats__title, .chic-francaise__content .plats .palette-gout__content .entrees .plats__title, .chic-francaise__content .plats .palette-gout__content .desserts .plats__title, .chic-francaise__content .plats .palette-gout__content .plats .plats__title, .palette-gout__content .note-enchantee__content .chic-francaise__content .plats .plats__title, .chic-francaise__content .palette-gout__content .note-enchantee__content .plats .plats__title, .note-enchantee__content .palette-gout__content .chic-francaise__content .plats .plats__title, .chic-francaise__content .note-enchantee__content .palette-gout__content .plats .plats__title, .palette-gout__content .note-enchantee__content .desserts .chic-francaise__content .plats .plats__title, .chic-francaise__content .plats .palette-gout__content .note-enchantee__content .desserts .plats__title, .note-enchantee__content .palette-gout__content .desserts .chic-francaise__content .plats .plats__title, .chic-francaise__content .plats .note-enchantee__content .palette-gout__content .desserts .plats__title, .palette-gout__content .chic-francaise__content .plats .plats__title, .chic-francaise__content .palette-gout__content .plats .plats__title, .palette-gout__content .chic-francaise__content .desserts .plats .plats__title, .palette-gout__content .chic-francaise__content .plats .desserts .plats__title, .chic-francaise__content .palette-gout__content .desserts .plats .plats__title, .chic-francaise__content .plats .palette-gout__content .desserts .plats__title, .palette-gout__content .delice-papille__content .chic-francaise__content .plats .plats__title, .chic-francaise__content .palette-gout__content .delice-papille__content .plats .plats__title, .delice-papille__content .palette-gout__content .chic-francaise__content .plats .plats__title, .chic-francaise__content .delice-papille__content .palette-gout__content .plats .plats__title, .palette-gout__content .delice-papille__content .desserts .chic-francaise__content .plats .plats__title, .chic-francaise__content .plats .palette-gout__content .delice-papille__content .desserts .plats__title, .delice-papille__content .palette-gout__content .desserts .chic-francaise__content .plats .plats__title, .chic-francaise__content .plats .delice-papille__content .palette-gout__content .desserts .plats__title, .palette-gout__content .entrees .chic-francaise__content .desserts .desserts__title, .palette-gout__content .desserts .chic-francaise__content .desserts .desserts__title, .palette-gout__content .plats .chic-francaise__content .desserts .desserts__title, .chic-francaise__content .desserts .palette-gout__content .entrees .desserts__title, .chic-francaise__content .desserts .palette-gout__content .desserts .desserts__title, .chic-francaise__content .desserts .palette-gout__content .plats .desserts__title, .palette-gout__content .note-enchantee__content .plats .chic-francaise__content .desserts .desserts__title, .chic-francaise__content .desserts .palette-gout__content .note-enchantee__content .plats .desserts__title, .note-enchantee__content .palette-gout__content .plats .chic-francaise__content .desserts .desserts__title, .chic-francaise__content .desserts .note-enchantee__content .palette-gout__content .plats .desserts__title, .palette-gout__content .note-enchantee__content .chic-francaise__content .desserts .desserts__title, .chic-francaise__content .palette-gout__content .note-enchantee__content .desserts .desserts__title, .note-enchantee__content .palette-gout__content .chic-francaise__content .desserts .desserts__title, .chic-francaise__content .note-enchantee__content .palette-gout__content .desserts .desserts__title, .palette-gout__content .chic-francaise__content .plats .desserts .desserts__title, .palette-gout__content .chic-francaise__content .desserts .plats .desserts__title, .chic-francaise__content .palette-gout__content .plats .desserts .desserts__title, .chic-francaise__content .desserts .palette-gout__content .plats .desserts__title, .palette-gout__content .chic-francaise__content .desserts .desserts__title, .chic-francaise__content .palette-gout__content .desserts .desserts__title, .palette-gout__content .delice-papille__content .plats .chic-francaise__content .desserts .desserts__title, .chic-francaise__content .desserts .palette-gout__content .delice-papille__content .plats .desserts__title, .delice-papille__content .palette-gout__content .plats .chic-francaise__content .desserts .desserts__title, .chic-francaise__content .desserts .delice-papille__content .palette-gout__content .plats .desserts__title, .palette-gout__content .delice-papille__content .chic-francaise__content .desserts .desserts__title, .chic-francaise__content .palette-gout__content .delice-papille__content .desserts .desserts__title, .delice-papille__content .palette-gout__content .chic-francaise__content .desserts .desserts__title, .chic-francaise__content .delice-papille__content .palette-gout__content .desserts .desserts__title, .palette-gout__content .entrees .delice-papille__content .plats .plats__title, .palette-gout__content .desserts .delice-papille__content .plats .plats__title, .palette-gout__content .plats .delice-papille__content .plats .plats__title, .delice-papille__content .plats .palette-gout__content .entrees .plats__title, .delice-papille__content .plats .palette-gout__content .desserts .plats__title, .delice-papille__content .plats .palette-gout__content .plats .plats__title, .palette-gout__content .note-enchantee__content .delice-papille__content .plats .plats__title, .delice-papille__content .palette-gout__content .note-enchantee__content .plats .plats__title, .note-enchantee__content .palette-gout__content .delice-papille__content .plats .plats__title, .delice-papille__content .note-enchantee__content .palette-gout__content .plats .plats__title, .palette-gout__content .note-enchantee__content .desserts .delice-papille__content .plats .plats__title, .delice-papille__content .plats .palette-gout__content .note-enchantee__content .desserts .plats__title, .note-enchantee__content .palette-gout__content .desserts .delice-papille__content .plats .plats__title, .delice-papille__content .plats .note-enchantee__content .palette-gout__content .desserts .plats__title, .palette-gout__content .chic-francaise__content .delice-papille__content .plats .plats__title, .delice-papille__content .palette-gout__content .chic-francaise__content .plats .plats__title, .chic-francaise__content .palette-gout__content .delice-papille__content .plats .plats__title, .delice-papille__content .chic-francaise__content .palette-gout__content .plats .plats__title, .palette-gout__content .chic-francaise__content .desserts .delice-papille__content .plats .plats__title, .delice-papille__content .plats .palette-gout__content .chic-francaise__content .desserts .plats__title, .chic-francaise__content .palette-gout__content .desserts .delice-papille__content .plats .plats__title, .delice-papille__content .plats .chic-francaise__content .palette-gout__content .desserts .plats__title, .palette-gout__content .delice-papille__content .plats .plats__title, .delice-papille__content .palette-gout__content .plats .plats__title, .palette-gout__content .delice-papille__content .desserts .plats .plats__title, .palette-gout__content .delice-papille__content .plats .desserts .plats__title, .delice-papille__content .palette-gout__content .desserts .plats .plats__title, .delice-papille__content .plats .palette-gout__content .desserts .plats__title, .palette-gout__content .entrees .delice-papille__content .desserts .desserts__title, .palette-gout__content .desserts .delice-papille__content .desserts .desserts__title, .palette-gout__content .plats .delice-papille__content .desserts .desserts__title, .delice-papille__content .desserts .palette-gout__content .entrees .desserts__title, .delice-papille__content .desserts .palette-gout__content .desserts .desserts__title, .delice-papille__content .desserts .palette-gout__content .plats .desserts__title, .palette-gout__content .note-enchantee__content .plats .delice-papille__content .desserts .desserts__title, .delice-papille__content .desserts .palette-gout__content .note-enchantee__content .plats .desserts__title, .note-enchantee__content .palette-gout__content .plats .delice-papille__content .desserts .desserts__title, .delice-papille__content .desserts .note-enchantee__content .palette-gout__content .plats .desserts__title, .palette-gout__content .note-enchantee__content .delice-papille__content .desserts .desserts__title, .delice-papille__content .palette-gout__content .note-enchantee__content .desserts .desserts__title, .note-enchantee__content .palette-gout__content .delice-papille__content .desserts .desserts__title, .delice-papille__content .note-enchantee__content .palette-gout__content .desserts .desserts__title, .palette-gout__content .chic-francaise__content .plats .delice-papille__content .desserts .desserts__title, .delice-papille__content .desserts .palette-gout__content .chic-francaise__content .plats .desserts__title, .chic-francaise__content .palette-gout__content .plats .delice-papille__content .desserts .desserts__title, .delice-papille__content .desserts .chic-francaise__content .palette-gout__content .plats .desserts__title, .palette-gout__content .chic-francaise__content .delice-papille__content .desserts .desserts__title, .delice-papille__content .palette-gout__content .chic-francaise__content .desserts .desserts__title, .chic-francaise__content .palette-gout__content .delice-papille__content .desserts .desserts__title, .delice-papille__content .chic-francaise__content .palette-gout__content .desserts .desserts__title, .palette-gout__content .delice-papille__content .plats .desserts .desserts__title, .palette-gout__content .delice-papille__content .desserts .plats .desserts__title, .delice-papille__content .palette-gout__content .plats .desserts .desserts__title, .delice-papille__content .desserts .palette-gout__content .plats .desserts__title, .palette-gout__content .delice-papille__content .desserts .desserts__title, .delice-papille__content .palette-gout__content .desserts .desserts__title {
   display: flex;
@@ -757,7 +788,15 @@ body {
 }
 
 @media screen and (max-width: 1000px) {
-  #menus-ligne-1, #menus-ligne-2, #menu-ligne-2 {
+  #menus-ligne-1, #menus-ligne-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  #menu-ligne-2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -789,6 +828,18 @@ body {
   }
 }
 @media screen and (max-width: 800px) {
+  .menus {
+    margin-bottom: 20px;
+  }
+
+  #menus-ligne-1, #menus-ligne-2 {
+    margin-top: 20px;
+  }
+
+  #menus-ligne-2 {
+    margin-top: 0;
+  }
+
   .note-enchantee__content {
     font-size: 0.8em;
   }
@@ -972,12 +1023,23 @@ body {
   }
 
   .menus {
-    width: 100%;
+    width: 95%;
+    height: 450px;
+    margin-bottom: 20px;
+  }
+
+  #menus-ligne-1, #menus-ligne-2 {
+    margin-top: 10px;
+  }
+
+  #menus-ligne-2 {
+    margin-top: 0;
   }
 
   .soon {
     width: 250px;
     font-size: 20px;
+    margin-top: 40px;
   }
 
   footer {

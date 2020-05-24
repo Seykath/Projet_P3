@@ -15,20 +15,20 @@
 
  #menus-ligne-2 {
      @extend #menus-ligne-1;
-     margin-top: 20px;
+     margin-top: 60px;
  }
 
 // Taille des boîtes des menus + effet de contour + ombre des boîtes
 .menus{
     width: 500px;
     height: 700px;
-    margin: 0 25px;
+    margin: 0 40px;
     box-shadow: $article-box-shadow;
     overflow: hidden;
 
     // Background + Effet de zoom et opacité + Positionnement du texte à l'intérieur de la boîte menu "La note enchantée"
     &__note-enchantee{
-        background-color: $bg-menu-1;
+        background-color: $bg-note;
         transition: all 0.4s;
 
         .fa-music{
@@ -41,9 +41,26 @@
 
     }
 
-    // Background + Effet de zoom et opacité + Positionnement du texte à l'intérieur des boîtes des 3 autres menus
-    &__chic-a-la-francaise, &__delice-des-papilles, &__palette-du-gout {
-        background-color: $bg-other-menu;
+    // Background + Effet de zoom et opacité + Positionnement du texte à l'intérieur de la boîte menu " Chic à la française"
+    &__chic-a-la-francaise {
+        background-color: $bg-chic;
+        transition: all 0.4s;
+
+        @include zoom-opacity;
+        @include position-menus-index;
+    }
+
+     &__delice-des-papilles {
+        background-color: $bg-delice;
+        transition: all 0.4s;
+
+        @include zoom-opacity;
+        @include position-menus-index;
+    }
+
+
+    &__palette-du-gout {
+        background-color: $bg-palette;
         transition: all 0.4s;
 
         @include zoom-opacity;
