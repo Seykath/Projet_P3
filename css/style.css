@@ -108,7 +108,6 @@ footer .link-animation:hover {
 
 .link {
   text-decoration: none;
-  color: none;
 }
 
 #menus-ligne-1, #menus-ligne-2 {
@@ -1012,8 +1011,19 @@ body {
     font-size: 0.9em;
   }
   .palette-gout__content strong {
-    font-size: 0.91em;
+    font-size: 0.9em;
     margin-top: 10px;
+  }
+
+  .mentions-legales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9em;
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 @media screen and (max-width: 500px) {
