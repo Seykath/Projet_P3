@@ -848,11 +848,16 @@ body {
 
   .note-enchantee__content {
     font-size: 0.8em;
+    margin-top: 0;
+    margin-bottom: 0;
   }
   .note-enchantee__content .entrees, .note-enchantee__content .plats, .note-enchantee__content .desserts {
     width: 100%;
     padding-left: 10px;
     padding-right: 10px;
+  }
+  .note-enchantee__content .desserts {
+    margin-bottom: 20px;
   }
   .note-enchantee__content .lignemenu {
     display: flex;
@@ -869,6 +874,10 @@ body {
     font-size: 1em;
   }
 
+  .chic-francaise__content {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
   .chic-francaise__content .entrees, .chic-francaise__content .plats, .chic-francaise__content .desserts {
     width: 100%;
     padding-left: 5px;
@@ -897,6 +906,7 @@ body {
     width: 100%;
     padding-left: 5px;
     padding-right: 5px;
+    margin-bottom: 20px;
   }
   .chic-francaise__content .desserts .lignemenu {
     display: flex;
@@ -920,6 +930,10 @@ body {
     margin-top: 10px;
   }
 
+  .delice-papille__content {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
   .delice-papille__content .entrees, .delice-papille__content .plats, .delice-papille__content .desserts {
     width: 100%;
     padding-left: 5px;
@@ -948,6 +962,7 @@ body {
     width: 100%;
     padding-left: 5px;
     padding-right: 5px;
+    margin-bottom: 20px;
   }
   .delice-papille__content .desserts .lignemenu {
     display: flex;
@@ -972,6 +987,10 @@ body {
     margin-top: 10px;
   }
 
+  .palette-gout__content {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
   .palette-gout__content .entrees, .palette-gout__content .plats, .palette-gout__content .desserts {
     width: 100%;
     padding-left: 5px;
@@ -1000,6 +1019,7 @@ body {
     width: 100%;
     padding-left: 5px;
     padding-right: 5px;
+    margin-bottom: 20px;
   }
   .palette-gout__content .desserts .lignemenu {
     display: flex;

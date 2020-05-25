@@ -72,10 +72,17 @@ body {
 
     .note-enchantee__content {
         font-size: 0.8em;
+        margin-top: 0;
+        margin-bottom: 0;
+        
         .entrees {
             width: 100%;
             padding-left: 10px;
             padding-right: 10px;
+        }
+
+        .desserts {
+            margin-bottom: 20px;
         }
         
         .lignemenu {
@@ -99,6 +106,9 @@ body {
 
     .chic-francaise__content {
 
+        margin-top: 0;
+        margin-bottom: 0;
+        
         .entrees {
             width: 100%;
             padding-left: 5px;
@@ -131,6 +141,7 @@ body {
             width: 100%;
             padding-left: 5px;
             padding-right: 5px;
+            margin-bottom: 20px;
 
             .lignemenu {
             display: flex;
@@ -162,6 +173,9 @@ body {
 
     .delice-papille__content {
 
+        margin-top: 0;
+        margin-bottom: 0;
+        
         .entrees {
             width: 100%;
             padding-left: 5px;
@@ -194,6 +208,7 @@ body {
             width: 100%;
             padding-left: 5px;
             padding-right: 5px;
+            margin-bottom: 20px;
 
             .lignemenu {
             display: flex;
@@ -226,6 +241,9 @@ body {
 
     .palette-gout__content {
 
+        margin-top: 0;
+        margin-bottom: 0;
+        
         .entrees {
             width: 100%;
             padding-left: 5px;
@@ -258,6 +276,7 @@ body {
             width: 100%;
             padding-left: 5px;
             padding-right: 5px;
+            margin-bottom: 20px;
 
             .lignemenu {
             display: flex;
