@@ -1037,6 +1037,12 @@ body {
     height: 450px;
     margin-bottom: 20px;
   }
+  .menus h2 {
+    font-size: 1em;
+  }
+  .menus h3 {
+    font-size: 1em;
+  }
 
   #menus-ligne-1, #menus-ligne-2 {
     margin-top: 10px;
