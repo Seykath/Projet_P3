@@ -78,10 +78,9 @@ header {
   background-color: #579c87;
   border-bottom: 2px solid #a1c181;
 }
-header .logo {
-  width: 380px;
-  height: auto;
-  margin: auto;
+header a {
+  text-decoration: none;
+  color: #fdcb46;
 }
 
 footer {
@@ -457,6 +456,13 @@ body {
   color: #353535;
 }
 
+header h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 80px;
+  letter-spacing: -7px;
+  font-weight: 700;
+}
+
 /* INDEX | La note enchantée */
 .menus__note-enchantee h2 {
   font-family: "Devonshire", cursive;
@@ -745,7 +751,7 @@ body {
 /* "bouton" Prochainement */
 .soon {
   font-family: "Montserrat", "sans-serif";
-  font-weight: bold;
+  font-weight: 500;
   text-align: center;
   font-size: 27px;
   white-space: nowrap;
@@ -758,7 +764,7 @@ body {
 footer {
   font-family: "Montserrat", "sans-serif";
   font-size: 27px;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 /* Page Mentions légales */
@@ -841,6 +847,13 @@ body {
   }
 }
 @media screen and (max-width: 800px) {
+  header {
+    height: 110px;
+  }
+  header h1 {
+    font-size: 60px;
+  }
+
   .menus {
     margin-bottom: 20px;
   }

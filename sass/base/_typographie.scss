@@ -26,6 +26,16 @@ body {
     color: $text-color;
 }
 
+header {
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 80px;
+        letter-spacing: -7px;
+        font-weight: 700;
+    }
+}
+
+
 /* INDEX | La note enchantée */
 .menus__note-enchantee {
     h2{
@@ -325,7 +335,7 @@ body {
 /* "bouton" Prochainement */
 .soon {
     font-family: 'Montserrat', 'sans-serif';
-    font-weight: bold;
+    font-weight: 500;
     text-align: center;
     font-size: 27px;
     white-space: nowrap;
@@ -339,7 +349,7 @@ body {
 footer{
     font-family: 'Montserrat', 'sans-serif';
     font-size: 27px;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 

@@ -8,10 +8,9 @@ header{
     background-color: $primary;
     border-bottom: 2px solid #a1c181;
 
-    .logo{
-        width: 380px;
-        height: auto;
-        margin: auto;
+    a {
+        text-decoration: none;
+        color: $secondary;
     }
 }
 
