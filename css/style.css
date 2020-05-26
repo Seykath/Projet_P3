@@ -486,7 +486,7 @@ header h1 {
 }
 
 /* PAGE | La note enchantée */
-.note-enchantee__content h1 {
+.note-enchantee__content h2 {
   font-family: "Devonshire", cursive;
   font-size: 55px;
   font-weight: normal;
@@ -494,7 +494,7 @@ header h1 {
   margin-bottom: 50px;
   color: #3d1319;
 }
-.note-enchantee__content h2 {
+.note-enchantee__content h3 {
   font-family: "Segoe Print", serif;
   font-size: 30px;
   font-weight: bold;
@@ -506,10 +506,10 @@ header h1 {
   background-size: 0 100%;
   transition: background-size 0.4s;
 }
-.note-enchantee__content h2:hover {
+.note-enchantee__content h3:hover {
   background-size: 100% 100%;
 }
-.note-enchantee__content h3 {
+.note-enchantee__content h4 {
   font-family: "Devonshire", cursive;
   font-size: 45px;
   font-weight: normal;
@@ -549,7 +549,7 @@ header h1 {
 }
 
 /* PAGE | Le chic à la française */
-.chic-francaise__content h1 {
+.chic-francaise__content h2 {
   font-family: "Croissant one", cursive;
   font-size: 50px;
   text-align: center;
@@ -559,7 +559,7 @@ header h1 {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
-.chic-francaise__content h2 {
+.chic-francaise__content h3 {
   font-family: "Serif";
   font-size: 30px;
   font-weight: bold;
@@ -622,7 +622,7 @@ header h1 {
 }
 
 /* PAGE | Le délice des papilles */
-.delice-papille__content h1 {
+.delice-papille__content h2 {
   font-family: "Dancing Script", cursive;
   font-size: 90px;
   text-align: center;
@@ -634,7 +634,7 @@ header h1 {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
-.delice-papille__content h2 {
+.delice-papille__content h3 {
   font-family: "Segoe Print", serif;
   font-size: 30px;
   font-weight: bold;
@@ -697,7 +697,7 @@ header h1 {
 }
 
 /* PAGE | La palette du goût */
-.palette-gout__content h1 {
+.palette-gout__content h2 {
   font-family: "Kaushan Script", cursive;
   font-size: 85px;
   text-align: center;
@@ -707,7 +707,7 @@ header h1 {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
-.palette-gout__content h2 {
+.palette-gout__content h3 {
   font-family: "Segoe Print", serif;
   font-size: 30px;
   white-space: nowrap;
@@ -772,7 +772,7 @@ footer {
   font-family: "Montserrat", "sans-serif";
   font-size: 25px;
 }
-.mentions-legales h1 {
+.mentions-legales h2 {
   text-align: center;
   font-size: 40px;
   font-weight: bold;
@@ -791,7 +791,7 @@ footer {
   text-align: center;
   margin-bottom: 50px;
 }
-.mentions-legales h4 {
+.mentions-legales h3 {
   border-bottom: 1px black solid;
 }
 .mentions-legales p {
@@ -885,10 +885,10 @@ body {
     flex-direction: column;
     text-align: center;
   }
-  .note-enchantee__content h1 {
+  .note-enchantee__content h2 {
     font-size: 2.2em;
   }
-  .note-enchantee__content h2 {
+  .note-enchantee__content h3 {
     font-size: 1.4em;
   }
   .note-enchantee__content p {
@@ -937,10 +937,10 @@ body {
     width: 100%;
     margin: 0 5px 30px 5px;
   }
-  .chic-francaise__content h1 {
+  .chic-francaise__content h2 {
     font-size: 1.8em;
   }
-  .chic-francaise__content h2 {
+  .chic-francaise__content h3 {
     font-size: 1.1em;
     white-space: normal;
   }
@@ -994,10 +994,10 @@ body {
     width: 100%;
     margin: 0 5px 30px 5px;
   }
-  .delice-papille__content h1 {
+  .delice-papille__content h2 {
     font-size: 2.5em;
   }
-  .delice-papille__content h2 {
+  .delice-papille__content h3 {
     font-size: 1em;
     margin-left: 15px;
     margin-right: 15px;
@@ -1052,10 +1052,10 @@ body {
     width: 100%;
     margin: 0 5px 30px 5px;
   }
-  .palette-gout__content h1 {
+  .palette-gout__content h2 {
     font-size: 2.4em;
   }
-  .palette-gout__content h2 {
+  .palette-gout__content h3 {
     font-size: 1.1em;
   }
   .palette-gout__content p {
