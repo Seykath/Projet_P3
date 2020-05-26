@@ -84,10 +84,10 @@
 // Effet des points de suspension à la fin de prochainement
 .point {
     margin: auto;
-    padding: 1%;
+    padding-left: 1%;
     
     span {
-        animation: ellipsis 1.4s infinite both;
+        animation: ellipsis 1.4s infinite;
   
         &:nth-child(2) {
             animation-delay: .2s;
