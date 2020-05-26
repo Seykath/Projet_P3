@@ -12,7 +12,7 @@ body {
 
 
 // Reponsive
-
+// Breakpoint 1000px
 @media screen and (max-width: 1000px) {
     #menus-ligne-1{
         display: flex;
@@ -55,7 +55,7 @@ body {
     }
 }
 
-
+// Breakpoint 800px
 @media screen and (max-width: 800px) {
 
     .menus {
@@ -74,6 +74,7 @@ body {
         font-size: 0.8em;
         margin-top: 0;
         margin-bottom: 0;
+        box-shadow: none;
         
         .entrees {
             width: 100%;
@@ -108,6 +109,7 @@ body {
 
         margin-top: 0;
         margin-bottom: 0;
+        box-shadow: none;
         
         .entrees {
             width: 100%;
@@ -175,6 +177,7 @@ body {
 
         margin-top: 0;
         margin-bottom: 0;
+        box-shadow: none;
         
         .entrees {
             width: 100%;
@@ -243,6 +246,7 @@ body {
 
         margin-top: 0;
         margin-bottom: 0;
+        box-shadow: none;
         
         .entrees {
             width: 100%;
@@ -317,6 +321,8 @@ body {
         }
 }
 
+
+// Breakpoint 500px
 @media screen and (max-width: 500px) {
 
     header {

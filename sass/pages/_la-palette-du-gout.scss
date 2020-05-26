@@ -1,3 +1,4 @@
+// Contenu du menu La palette du goût
 .palette-gout {
     @include position-menu;
     
@@ -10,6 +11,7 @@
         margin-top: 4vh;
         margin-bottom: 14vh;
         background-color: $bg-palette;
+        box-shadow:$article-box-shadow;
 
         .entrees {
             display: flex;

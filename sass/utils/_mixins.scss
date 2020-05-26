@@ -55,7 +55,7 @@
     }
 }
 
-// Positionnement du bloc mentions légales inclu dans la page mentions-légales.html
+// Positionnement du bloc mentions légales inclus dans la page mentions-légales.html
 @mixin mentions {
     display: flex;
     justify-content: center;
@@ -68,7 +68,7 @@
     margin-bottom: 80px;
 }
 
-// Soulignement des titres des menus 1, 2 et 3
+// Soulignement des titres des menus
 @mixin underline-menus($color){
     background: linear-gradient(to top, ($color 0%), ($color 3px), transparent 3px) no-repeat ;
     background-size: 0 100%;
