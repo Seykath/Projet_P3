@@ -117,14 +117,14 @@ header {
     text-align: center;
     margin: 0;
     padding: 10px;
-    @include title-gradient(150deg, #e38a12, #8f5aff);
+    @include title-gradient(150deg, $chic-gradient-1, $chic-gradient-2);
     }
 
     h3{
     font-family: 'Serif'; /* TO DO police à redéfinir */
     font-size: 65px;
     font-weight: bold;
-    color: #c77412;
+    color: $chic-color-1;
     margin-top: 35px;
     margin-bottom: 0;
     padding: 10px;
@@ -143,7 +143,7 @@ header {
             text-align: center;
             margin-top: 5vh;
             margin-bottom: 6vh;
-            @include title-gradient(150deg, #e38a12, #8f5aff);
+            @include title-gradient(150deg, $chic-gradient-1, $chic-gradient-2);
         }
 
         h3 {
@@ -192,7 +192,7 @@ header {
     text-align: center;
     margin: 0;
     padding: 10px;
-    @include title-gradient(45deg, #0023db, #0889fb);
+    @include title-gradient(90deg, $papille-gradient-1, $papille-gradient-2);
     }
 
     h3{
@@ -202,7 +202,7 @@ header {
     margin-top: 15px;
     padding: 10px;
     margin-bottom: 0;
-    color: #0887fb;
+    color: $papille-gradient-2;
     }
 }
 
@@ -219,7 +219,7 @@ header {
             margin-bottom: 6vh;
             padding-left: 5px;
             padding-right: 5px;
-            @include title-gradient(45deg, #0023db, #229df9);
+            @include title-gradient(90deg, $papille-gradient-1, $papille-gradient-2);
         }
 
         h3 {
@@ -278,7 +278,7 @@ header {
     margin-top: 15px;
     margin-bottom: 0;
     padding: 10px;
-    color: #72bf56;
+    color: $palette-menu;
     }
 }
 
@@ -306,17 +306,17 @@ header {
         }
 
         .underline-1 {
-            @include underline-menus($underline);
+            @include underline-menus($palette-menu);
             @include underline-hover;
         }
 
         .underline-2 {
-            @include underline-menus($underline);
+            @include underline-menus($palette-menu);
             @include underline-hover;
         }
 
         .underline-3 {
-            @include underline-menus($underline);
+            @include underline-menus($palette-menu);
             @include underline-hover;
         }
         
@@ -364,7 +364,8 @@ footer{
         font-size: 40px;
         font-weight: bold;
         margin-bottom: 80px;
-        border-bottom: 1px black solid;
+        @include underline-menus($text-color);
+        @include underline-hover;
     }
 
     .chapitre {
@@ -382,7 +383,8 @@ footer{
     }
 
     h3 {
-        border-bottom: 1px black solid;
+        @include underline-menus($text-color);
+        @include underline-hover;
     }
 
     p {
