@@ -371,7 +371,7 @@ footer .link-animation:hover {
   flex-wrap: wrap;
   width: 100%;
   height: 100%;
-  padding: 1em 1em;
+  padding: 2em 1em;
 }
 .delice-papille__content .entrees .entrees__title, .palette-gout__content .desserts .delice-papille__content .entrees .desserts__title, .palette-gout__content .plats .delice-papille__content .entrees .plats__title, .palette-gout__content .plats .delice-papille__content .desserts .plats__title, .delice-papille__content .desserts .entrees__title, .delice-papille__content .desserts .desserts__title, .delice-papille__content .plats .entrees__title, .palette-gout__content .desserts .delice-papille__content .plats .desserts__title, .delice-papille__content .plats .plats__title, .note-enchantee__content .plats .delice-papille__content .entrees .plats__title, .note-enchantee__content .plats .delice-papille__content .desserts .plats__title, .note-enchantee__content .desserts .delice-papille__content .entrees .desserts__title, .note-enchantee__content .desserts .delice-papille__content .plats .desserts__title, .chic-francaise__content .plats .delice-papille__content .entrees .plats__title, .chic-francaise__content .plats .delice-papille__content .desserts .plats__title, .chic-francaise__content .desserts .delice-papille__content .entrees .desserts__title, .chic-francaise__content .desserts .delice-papille__content .plats .desserts__title {
   display: flex;
@@ -956,7 +956,7 @@ body {
 
   .delice-papille__content {
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     box-shadow: none;
   }
   .delice-papille__content .entrees, .delice-papille__content .plats, .delice-papille__content .desserts {
