@@ -203,7 +203,6 @@ footer .link-animation:hover {
 }
 
 .point {
-  margin: auto;
   padding-left: 1%;
 }
 .point span {
@@ -502,8 +501,8 @@ header h1 {
   white-space: nowrap;
   margin: 0 20px;
   color: #3d1319;
-  background: linear-gradient(to top, #3d1319 3px, transparent 3px) no-repeat;
-  background-size: 0 100%;
+  background: linear-gradient(to top, #3d1319 3px, #3d1319 3px, transparent 3px) no-repeat;
+  background-size: 0% 100%;
   transition: background-size 0.4s;
 }
 .note-enchantee__content h3:hover {
@@ -568,24 +567,24 @@ header h1 {
   margin: 0 15px;
 }
 .chic-francaise__content .underline-1 {
-  background: linear-gradient(to top, #c77412 3px, transparent 3px) no-repeat;
-  background-size: 0 100%;
+  background: linear-gradient(to top, #c77412 3px, #c77412 3px, transparent 3px) no-repeat;
+  background-size: 0% 100%;
   transition: background-size 0.4s;
 }
 .chic-francaise__content .underline-1:hover {
   background-size: 100% 100%;
 }
 .chic-francaise__content .underline-2 {
-  background: linear-gradient(to top, #a56799 3px, transparent 3px) no-repeat;
-  background-size: 0 100%;
+  background: linear-gradient(to top, #a56799 3px, #a56799 3px, transparent 3px) no-repeat;
+  background-size: 0% 100%;
   transition: background-size 0.4s;
 }
 .chic-francaise__content .underline-2:hover {
   background-size: 100% 100%;
 }
 .chic-francaise__content .underline-3 {
-  background: linear-gradient(to top, #6e4ccc 3px, transparent 3px) no-repeat;
-  background-size: 0 100%;
+  background: linear-gradient(to top, #6e4ccc 3px, #6e4ccc 3px, transparent 3px) no-repeat;
+  background-size: 0% 100%;
   transition: background-size 0.4s;
 }
 .chic-francaise__content .underline-3:hover {
@@ -643,24 +642,24 @@ header h1 {
   margin: 0 50px;
 }
 .delice-papille__content .underline-1 {
-  background: linear-gradient(to top, #0228dd 3px, transparent 3px) no-repeat;
-  background-size: 0 100%;
+  background: linear-gradient(to top, #0228dd 3px, #0228dd 3px, transparent 3px) no-repeat;
+  background-size: 0% 100%;
   transition: background-size 0.4s;
 }
 .delice-papille__content .underline-1:hover {
   background-size: 100% 100%;
 }
 .delice-papille__content .underline-2 {
-  background: linear-gradient(to top, #0670f3 3px, transparent 3px) no-repeat;
-  background-size: 0 100%;
+  background: linear-gradient(to top, #0670f3 3px, #0670f3 3px, transparent 3px) no-repeat;
+  background-size: 0% 100%;
   transition: background-size 0.4s;
 }
 .delice-papille__content .underline-2:hover {
   background-size: 100% 100%;
 }
 .delice-papille__content .underline-3 {
-  background: linear-gradient(to top, #229df9 3px, transparent 3px) no-repeat;
-  background-size: 0 100%;
+  background: linear-gradient(to top, #229df9 3px, #229df9 3px, transparent 3px) no-repeat;
+  background-size: 0% 100%;
   transition: background-size 0.4s;
 }
 .delice-papille__content .underline-3:hover {
@@ -716,24 +715,24 @@ header h1 {
   margin: 0 2vw;
 }
 .palette-gout__content .underline-1 {
-  background: linear-gradient(to top, #8dda45 3px, transparent 3px) no-repeat;
-  background-size: 0 100%;
+  background: linear-gradient(to top, #8dda45 3px, #8dda45 3px, transparent 3px) no-repeat;
+  background-size: 0% 100%;
   transition: background-size 0.4s;
 }
 .palette-gout__content .underline-1:hover {
   background-size: 100% 100%;
 }
 .palette-gout__content .underline-2 {
-  background: linear-gradient(to top, #8dda45 3px, transparent 3px) no-repeat;
-  background-size: 0 100%;
+  background: linear-gradient(to top, #8dda45 3px, #8dda45 3px, transparent 3px) no-repeat;
+  background-size: 0% 100%;
   transition: background-size 0.4s;
 }
 .palette-gout__content .underline-2:hover {
   background-size: 100% 100%;
 }
 .palette-gout__content .underline-3 {
-  background: linear-gradient(to top, #8dda45 3px, transparent 3px) no-repeat;
-  background-size: 0 100%;
+  background: linear-gradient(to top, #8dda45 3px, #8dda45 3px, transparent 3px) no-repeat;
+  background-size: 0% 100%;
   transition: background-size 0.4s;
 }
 .palette-gout__content .underline-3:hover {
