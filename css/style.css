@@ -716,7 +716,7 @@ header h1 {
   margin: 0 2vw;
 }
 .palette-gout__content .underline-1 {
-  background: linear-gradient(to top, #bffc87 0%, #bffc87 3px, transparent 3px) no-repeat;
+  background: linear-gradient(to top, #8dda45 0%, #8dda45 3px, transparent 3px) no-repeat;
   background-size: 0 100%;
   transition: background-size 0.4s;
 }
@@ -724,7 +724,7 @@ header h1 {
   background-size: 100% 100%;
 }
 .palette-gout__content .underline-2 {
-  background: linear-gradient(to top, #bffc87 0%, #bffc87 3px, transparent 3px) no-repeat;
+  background: linear-gradient(to top, #8dda45 0%, #8dda45 3px, transparent 3px) no-repeat;
   background-size: 0 100%;
   transition: background-size 0.4s;
 }
@@ -732,7 +732,7 @@ header h1 {
   background-size: 100% 100%;
 }
 .palette-gout__content .underline-3 {
-  background: linear-gradient(to top, #bffc87 0%, #bffc87 3px, transparent 3px) no-repeat;
+  background: linear-gradient(to top, #8dda45 0%, #8dda45 3px, transparent 3px) no-repeat;
   background-size: 0 100%;
   transition: background-size 0.4s;
 }

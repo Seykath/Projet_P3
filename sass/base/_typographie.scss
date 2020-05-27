@@ -305,17 +305,17 @@ header {
         }
 
         .underline-1 {
-            @include underline-menus($palette-color-2);
+            @include underline-menus($underline);
             @include underline-hover;
         }
 
         .underline-2 {
-            @include underline-menus($palette-color-2);
+            @include underline-menus($underline);
             @include underline-hover;
         }
 
         .underline-3 {
-            @include underline-menus($palette-color-2);
+            @include underline-menus($underline);
             @include underline-hover;
         }
         

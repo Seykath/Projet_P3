@@ -41,20 +41,6 @@
     -webkit-background-clip: text;
 }
 
-// Positionnement des barres décoratives incluses dans chaque menus
-@mixin card-title-position {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    margin: auto 0;
-    img {
-        flex: 2 1 auto;
-        overflow: hidden;
-    }
-}
-
 // Positionnement du bloc mentions légales inclus dans la page mentions-légales.html
 @mixin mentions {
     display: flex;
