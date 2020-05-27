@@ -153,6 +153,7 @@ header {
             white-space: nowrap;
             text-align: center;
             margin: 0 15px;
+            padding: 5px 0;
         }
         .underline-1 {
             @include underline-menus($chic-color-1);

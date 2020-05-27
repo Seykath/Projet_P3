@@ -565,6 +565,7 @@ header h1 {
   white-space: nowrap;
   text-align: center;
   margin: 0 15px;
+  padding: 5px 0;
 }
 .chic-francaise__content .underline-1 {
   background: linear-gradient(to top, #c77412 3px, #c77412 3px, transparent 3px) no-repeat;
