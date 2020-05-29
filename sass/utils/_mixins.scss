@@ -56,7 +56,7 @@
 
 // Soulignement des titres des menus
 @mixin underline-menus($color){
-    background: linear-gradient(to top,($color 3px), ($color 3px), transparent 3px) no-repeat ;
+    background: linear-gradient(to top, ($color 3px), transparent 3px) no-repeat ;
     background-size: 0% 100%;
     transition: background-size 0.4s;
 }

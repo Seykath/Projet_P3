@@ -455,7 +455,7 @@ body {
 header h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 80px;
-  letter-spacing: -7px;
+  letter-spacing: -3px;
   font-weight: 700;
 }
 
@@ -498,7 +498,7 @@ header h1 {
   white-space: nowrap;
   margin: 0 20px;
   color: #3d1319;
-  background: linear-gradient(to top, #3d1319 3px, #3d1319 3px, transparent 3px) no-repeat;
+  background: linear-gradient(to top, #3d1319 3px, transparent 3px) no-repeat;
   background-size: 0% 100%;
   transition: background-size 0.4s;
 }
@@ -565,7 +565,7 @@ header h1 {
   padding: 5px 0;
 }
 .chic-francaise__content .underline-1 {
-  background: linear-gradient(to top, #c77412 3px, #c77412 3px, transparent 3px) no-repeat;
+  background: linear-gradient(to top, #c77412 3px, transparent 3px) no-repeat;
   background-size: 0% 100%;
   transition: background-size 0.4s;
 }
@@ -573,7 +573,7 @@ header h1 {
   background-size: 100% 100%;
 }
 .chic-francaise__content .underline-2 {
-  background: linear-gradient(to top, #a56799 3px, #a56799 3px, transparent 3px) no-repeat;
+  background: linear-gradient(to top, #a56799 3px, transparent 3px) no-repeat;
   background-size: 0% 100%;
   transition: background-size 0.4s;
 }
@@ -581,7 +581,7 @@ header h1 {
   background-size: 100% 100%;
 }
 .chic-francaise__content .underline-3 {
-  background: linear-gradient(to top, #6e4ccc 3px, #6e4ccc 3px, transparent 3px) no-repeat;
+  background: linear-gradient(to top, #6e4ccc 3px, transparent 3px) no-repeat;
   background-size: 0% 100%;
   transition: background-size 0.4s;
 }
@@ -640,7 +640,7 @@ header h1 {
   margin: 0 50px;
 }
 .delice-papille__content .underline-1 {
-  background: linear-gradient(to top, #0228dd 3px, #0228dd 3px, transparent 3px) no-repeat;
+  background: linear-gradient(to top, #0228dd 3px, transparent 3px) no-repeat;
   background-size: 0% 100%;
   transition: background-size 0.4s;
 }
@@ -648,7 +648,7 @@ header h1 {
   background-size: 100% 100%;
 }
 .delice-papille__content .underline-2 {
-  background: linear-gradient(to top, #0670f3 3px, #0670f3 3px, transparent 3px) no-repeat;
+  background: linear-gradient(to top, #0670f3 3px, transparent 3px) no-repeat;
   background-size: 0% 100%;
   transition: background-size 0.4s;
 }
@@ -656,7 +656,7 @@ header h1 {
   background-size: 100% 100%;
 }
 .delice-papille__content .underline-3 {
-  background: linear-gradient(to top, #229df9 3px, #229df9 3px, transparent 3px) no-repeat;
+  background: linear-gradient(to top, #229df9 3px, transparent 3px) no-repeat;
   background-size: 0% 100%;
   transition: background-size 0.4s;
 }
@@ -713,7 +713,7 @@ header h1 {
   margin: 0 2vw;
 }
 .palette-gout__content .underline-1 {
-  background: linear-gradient(to top, #72bf56 3px, #72bf56 3px, transparent 3px) no-repeat;
+  background: linear-gradient(to top, #72bf56 3px, transparent 3px) no-repeat;
   background-size: 0% 100%;
   transition: background-size 0.4s;
 }
@@ -721,7 +721,7 @@ header h1 {
   background-size: 100% 100%;
 }
 .palette-gout__content .underline-2 {
-  background: linear-gradient(to top, #72bf56 3px, #72bf56 3px, transparent 3px) no-repeat;
+  background: linear-gradient(to top, #72bf56 3px, transparent 3px) no-repeat;
   background-size: 0% 100%;
   transition: background-size 0.4s;
 }
@@ -729,7 +729,7 @@ header h1 {
   background-size: 100% 100%;
 }
 .palette-gout__content .underline-3 {
-  background: linear-gradient(to top, #72bf56 3px, #72bf56 3px, transparent 3px) no-repeat;
+  background: linear-gradient(to top, #72bf56 3px, transparent 3px) no-repeat;
   background-size: 0% 100%;
   transition: background-size 0.4s;
 }
@@ -774,7 +774,7 @@ footer {
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 80px;
-  background: linear-gradient(to top, #353535 3px, #353535 3px, transparent 3px) no-repeat;
+  background: linear-gradient(to top, #353535 3px, transparent 3px) no-repeat;
   background-size: 0% 100%;
   transition: background-size 0.4s;
 }
@@ -794,7 +794,7 @@ footer {
   margin-bottom: 50px;
 }
 .mentions-legales h3 {
-  background: linear-gradient(to top, #353535 3px, #353535 3px, transparent 3px) no-repeat;
+  background: linear-gradient(to top, #353535 3px, transparent 3px) no-repeat;
   background-size: 0% 100%;
   transition: background-size 0.4s;
 }
