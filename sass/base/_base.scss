@@ -299,50 +299,202 @@ body {
     }
 
     .note-enchantee__content {
+        margin-bottom: 20px;
 
-       .lignemenu {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            text-align: center;
-            width: 100%;
-            margin: 10px 10px;
-        }
-    }
+       .entrees {
 
-    .chic-francaise__content {
-
-       .lignemenu {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            text-align: center;
-            width: 100%;
-            margin: 10px 10px;
-        }
-    }
-
-    .delice-papille__content {
-
-       .lignemenu {
+            .lignemenu {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             text-align: center;
             width: 100%;
             margin: 10px auto 10px auto;
+            }
+            span {
+                margin-top: 10px;
+            }
         }
-    }
 
-    .palette-gout__content {
+        .plats {
 
-       .lignemenu {
+            .lignemenu {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             text-align: center;
             width: 100%;
-            margin: 10px 10px;
+            margin: 10px auto 10px auto;
+            }
+            span {
+                margin-top: 10px;
+            }
+        }
+
+        .desserts {
+            margin-bottom: 20px;
+
+            .lignemenu {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            width: 100%;
+            margin: 10px auto 10px auto;
+            }
+            span {
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .chic-francaise__content {
+        margin-bottom: 20px;
+
+       .entrees {
+
+            .lignemenu {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            width: 100%;
+            margin: 10px auto 10px auto;
+            }
+            span {
+                margin-top: 10px;
+            }
+        }
+
+        .plats {
+
+            .lignemenu {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            width: 100%;
+            margin: 10px auto 10px auto;
+            }
+            span {
+                margin-top: 10px;
+            }
+        }
+
+        .desserts {
+
+            .lignemenu {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            width: 100%;
+            margin: 10px auto 10px auto;
+            }
+            span {
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .delice-papille__content {
+        margin-bottom: 20px;
+
+        .entrees {
+
+            .lignemenu {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            width: 100%;
+            margin: 10px auto 10px auto;
+            }
+            span {
+                margin-top: 10px;
+            }
+        }
+
+        .plats {
+
+            .lignemenu {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            width: 100%;
+            margin: 10px auto 10px auto;
+            }
+            span {
+                margin-top: 10px;
+            }
+        }
+
+        .desserts {
+            margin-bottom: 20px;
+
+            .lignemenu {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            width: 100%;
+            margin: 10px auto 10px auto;
+            }
+            span {
+                margin-top: 10px;
+            }
+        }
+       
+    }
+
+    .palette-gout__content {
+        margin-bottom: 20px;
+
+       .entrees {
+
+            .lignemenu {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            width: 100%;
+            margin: 10px auto 10px auto;
+            }
+            span {
+                margin-top: 10px;
+            }
+        }
+
+        .plats {
+
+            .lignemenu {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            width: 100%;
+            margin: 10px auto 10px auto;
+            }
+            span {
+                margin-top: 10px;
+            }
+        }
+
+        .desserts {
+            margin-bottom: 20px;
+
+            .lignemenu {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            width: 100%;
+            margin: 10px auto 10px auto;
+            }
+            span {
+                margin-top: 10px;
+            }
         }
     }
 

@@ -1049,25 +1049,10 @@ body {
     margin-top: 0;
   }
 
-  .note-enchantee__content .lignemenu {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-    width: 100%;
-    margin: 10px 10px;
+  .note-enchantee__content {
+    margin-bottom: 20px;
   }
-
-  .chic-francaise__content .lignemenu {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-    width: 100%;
-    margin: 10px 10px;
-  }
-
-  .delice-papille__content .lignemenu {
+  .note-enchantee__content .entrees .lignemenu, .note-enchantee__content .plats .lignemenu, .note-enchantee__content .desserts .lignemenu {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -1075,14 +1060,150 @@ body {
     width: 100%;
     margin: 10px auto 10px auto;
   }
-
-  .palette-gout__content .lignemenu {
+  .note-enchantee__content .entrees span, .note-enchantee__content .plats span, .note-enchantee__content .desserts span {
+    margin-top: 10px;
+  }
+  .note-enchantee__content .plats .lignemenu {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
     width: 100%;
-    margin: 10px 10px;
+    margin: 10px auto 10px auto;
+  }
+  .note-enchantee__content .plats span {
+    margin-top: 10px;
+  }
+  .note-enchantee__content .desserts {
+    margin-bottom: 20px;
+  }
+  .note-enchantee__content .desserts .lignemenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    margin: 10px auto 10px auto;
+  }
+  .note-enchantee__content .desserts span {
+    margin-top: 10px;
+  }
+
+  .chic-francaise__content {
+    margin-bottom: 20px;
+  }
+  .chic-francaise__content .entrees .lignemenu, .chic-francaise__content .plats .lignemenu, .chic-francaise__content .desserts .lignemenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    margin: 10px auto 10px auto;
+  }
+  .chic-francaise__content .entrees span, .chic-francaise__content .plats span, .chic-francaise__content .desserts span {
+    margin-top: 10px;
+  }
+  .chic-francaise__content .plats .lignemenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    margin: 10px auto 10px auto;
+  }
+  .chic-francaise__content .plats span {
+    margin-top: 10px;
+  }
+  .chic-francaise__content .desserts .lignemenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    margin: 10px auto 10px auto;
+  }
+  .chic-francaise__content .desserts span {
+    margin-top: 10px;
+  }
+
+  .delice-papille__content {
+    margin-bottom: 20px;
+  }
+  .delice-papille__content .entrees .lignemenu, .delice-papille__content .plats .lignemenu, .delice-papille__content .desserts .lignemenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    margin: 10px auto 10px auto;
+  }
+  .delice-papille__content .entrees span, .delice-papille__content .plats span, .delice-papille__content .desserts span {
+    margin-top: 10px;
+  }
+  .delice-papille__content .plats .lignemenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    margin: 10px auto 10px auto;
+  }
+  .delice-papille__content .plats span {
+    margin-top: 10px;
+  }
+  .delice-papille__content .desserts {
+    margin-bottom: 20px;
+  }
+  .delice-papille__content .desserts .lignemenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    margin: 10px auto 10px auto;
+  }
+  .delice-papille__content .desserts span {
+    margin-top: 10px;
+  }
+
+  .palette-gout__content {
+    margin-bottom: 20px;
+  }
+  .palette-gout__content .entrees .lignemenu, .palette-gout__content .plats .lignemenu, .palette-gout__content .desserts .lignemenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    margin: 10px auto 10px auto;
+  }
+  .palette-gout__content .entrees span, .palette-gout__content .plats span, .palette-gout__content .desserts span {
+    margin-top: 10px;
+  }
+  .palette-gout__content .plats .lignemenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    margin: 10px auto 10px auto;
+  }
+  .palette-gout__content .plats span {
+    margin-top: 10px;
+  }
+  .palette-gout__content .desserts {
+    margin-bottom: 20px;
+  }
+  .palette-gout__content .desserts .lignemenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    margin: 10px auto 10px auto;
+  }
+  .palette-gout__content .desserts span {
+    margin-top: 10px;
   }
 
   .soon {
