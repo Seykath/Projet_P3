@@ -298,6 +298,54 @@ body {
         margin-top: 0;
     }
 
+    .note-enchantee__content {
+
+       .lignemenu {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            width: 100%;
+            margin: 10px 10px;
+        }
+    }
+
+    .chic-francaise__content {
+
+       .lignemenu {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            width: 100%;
+            margin: 10px 10px;
+        }
+    }
+
+    .delice-papille__content {
+
+       .lignemenu {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            width: 100%;
+            margin: 10px auto 10px auto;
+        }
+    }
+
+    .palette-gout__content {
+
+       .lignemenu {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            width: 100%;
+            margin: 10px 10px;
+        }
+    }
+
     .soon {
         width: 250px;
         font-size: 20px;
